@@ -1,57 +1,55 @@
-<h1 align="center">Hi 👋, I'm Yosef Hayim</h1>
-<h3 align="center">A driven Full-Stack Developer in progress from Holon, Israel</h3>
+<h1 align="center">👋 Hello, I'm Yosef Hayim</h1>
+<h3 align="center">Aspiring Full-Stack Developer on a Journey from Holon, Israel</h3>
 
-## 🚀 About Me
+---
 
-- 🌍 **Location:** Holon, Israel
-- 🌱 Currently deep into Full-Stack Development
-- 🧠 Building responsive web applications with a focus on real-world projects
-- 🏋️‍♂️ Balancing a high-protein diet and daily training with intense coding sessions
-- ⚡ I believe in the power of consistency and self-discipline to achieve any goal
+### 🌍 About Me
+- 📍 **Location:** Holon, Israel
+- 🎓 Deeply immersed in Full-Stack Development
+- 🧩 Crafting responsive web applications with real-world applications
+- 💪 Balancing intense coding sessions with fitness and a high-protein diet
+- ⚡ Driven by consistency and self-discipline to push boundaries and achieve goals
 
-## 📫 How to reach me:
+---
 
-- **Email:** yosefisabag@gmail.com
+### 🎨 Projects & Exploration
+I enjoy exploring and experimenting with front-end projects on [Frontend Mentor](https://www.frontendmentor.io/profile/YosefHayim)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/yosef-sabag-113841239/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a>
+<a href="https://www.frontendmentor.io/profile/YosefHayim" target="_blank">
+  <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="Frontend Mentor" width="50" />
+</a>
+
+---
+
+### 📫 Reach Me
+- 📧 **Email:** yosefisabag@gmail.com
+
+### 🤝 Connect
+<a href="https://www.linkedin.com/in/yosef-sabag-113841239/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+---
+
+### 🛠️ Languages & Tools
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/SQL Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" />
-  </a>
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" />
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40" />
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40" />
-  </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="SQL Server" alt="SQL-Server" width="40" height="40" />
-  </a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40"/>
-  </a>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/twbs/icons@1.7.2/icons/bootstrap.svg" alt="Bootstrap" width="40" height="40"/>
-  </a>
-  <a href="https://sqlite.org" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="SQLite" width="40" height="40"/>
-  </a>
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yosefhayim&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yosefhayim&layout=compact&theme=radical" alt="Yosef's Most Used Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yosefhayim&theme=radical" alt="Yosef's GitHub Commit Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yosefhayim&theme=radical" alt="GitHub Streak" />
 </p>
