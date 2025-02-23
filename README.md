@@ -12,15 +12,6 @@
 
 ---
 
-### 🎨 Projects & Exploration
-I enjoy exploring and experimenting with front-end projects on Frontend Mentor
-
-<a href="https://www.frontendmentor.io/profile/YosefHayim" target="_blank">
-  <img src="https://www.frontendmentor.io/static/images/logo-mobile.svg" alt="Frontend Mentor" width="50" />
-</a>
-
----
-
 ### 📫 Reach Me
 - 📧 **Email:** yosefisabag@gmail.com
 
