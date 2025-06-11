@@ -1,6 +1,6 @@
  Hi 👋, I'm YosefHayim
 
-A passionate frontend developer from Israel
+A passionate junior full-stack web developer from Israel
 
 ---
 
