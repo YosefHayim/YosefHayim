@@ -1,11 +1,6 @@
-## Hi 👋, I'm YosefHayim
+ Hi 👋, I'm YosefHayim
 
 A passionate frontend developer from Israel
-
-- 🔭 I’m currently working on **aaa**  
-- 🌱 I’m currently learning **React Native**  
-- 👯 I’m looking to collaborate on **bbb**  
-- 🤝 I’m looking for help with **ccc**  
 
 ---
 
