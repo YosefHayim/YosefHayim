@@ -1,6 +1,6 @@
  Hi 👋, I'm YosefHayim
 
-A passionate full-stack developer from Israel
+A passionate software engineer from Israel
 
 ---
 
