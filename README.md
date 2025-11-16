@@ -25,6 +25,10 @@
 
 ### When I code and drink coffee, it is usually with these tech stacks
 
+<!-- TECHSTACK:START -->
+<!-- Auto-generated. Do not edit manually. -->
+<!-- TECHSTACK:END -->
+
 <div>
 
   <h3>Programming Languages</h3>
