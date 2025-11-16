@@ -1,91 +1,23 @@
-name: Stack inventory for all repos
+name: Update Stack Inventory
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 3 * * 1" # every Monday 03:00 UTC
-
-permissions:
-  contents: write
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  workflow_dispatch: # Allow manual triggering
 
 jobs:
-  scan-stacks:
+  update-stack-report:
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ github.token }}
-      GH_ORG: yosefhayim # set to your user/org name
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Ensure jq is installed
-        run: |
-          set -euo pipefail
-          sudo apt-get update -y
-          sudo apt-get install -y jq
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-      - name: List and scan all repos
-        run: |
-          set -euo pipefail
-
-          ORG="${GH_ORG}"
-          OUT="stack-report.json"
-
-          echo "[]" > "$OUT"
-
-          echo "Fetching repos for $ORG..."
-          repos=$(gh repo list "$ORG" --limit 200 --json name -q '.[].name')
-
-          for repo in $repos; do
-            echo "Scanning $ORG/$repo"
-
-            tmpdir=$(mktemp -d)
-            git clone --depth 1 "https://github.com/$ORG/$repo.git" "$tmpdir" >/dev/null 2>&1 || {
-              echo "  clone failed, skipping"
-              rm -rf "$tmpdir"
-              continue
-            }
-
-            stack="unknown"
-
-            # Node / JS / TS: package.json
-            if [ -f "$tmpdir/package.json" ]; then
-              stack="nodejs"
-              if jq -e '.dependencies.react // .devDependencies.react' "$tmpdir/package.json" >/dev/null 2>&1; then
-                stack="${stack}+react"
-              fi
-              if jq -e '.dependencies.typescript // .devDependencies.typescript' "$tmpdir/package.json" >/dev/null 2>&1; then
-                stack="${stack}+typescript"
-              fi
-
-            # Python
-            elif [ -f "$tmpdir/requirements.txt" ] || ls "$tmpdir"/*.py >/dev/null 2>&1; then
-              stack="python"
-
-            # Go
-            elif [ -f "$tmpdir/go.mod" ] || ls "$tmpdir"/*.go >/dev/null 2>&1; then
-              stack="go"
-
-            # Java
-            elif [ -f "$tmpdir/pom.xml" ] || [ -f "$tmpdir/build.gradle" ] || [ -f "$tmpdir/build.gradle.kts" ]; then
-              stack="java"
-
-            # .NET
-            elif ls "$tmpdir"/*.csproj >/dev/null 2>&1 || ls "$tmpdir"/*.sln >/dev/null 2>&1; then
-              stack="dotnet"
-            fi
-
-            jq --arg repo "$repo" --arg stack "$stack" \
-              '. + [{repo:$repo, stack:$stack}]' "$OUT" > "$OUT.tmp"
-            mv "$OUT.tmp" "$OUT"
-
-            rm -rf "$tmpdir"
-          done
-
-          echo "Final stack report:"
-          cat "$OUT"
-
-      - name: Update README second <div> with stack report
+      - name: Update README after second <div> with stack report
         run: |
           set -euo pipefail
 
@@ -93,21 +25,79 @@ jobs:
           import json
           import re
           from pathlib import Path
+          from urllib.parse import quote
+
+          # Load user color overrides (from badges README or wherever)
+          colors_path = Path("badge-colors.json")
+              try:
+                  user_colors = json.loads(colors_path.read_text(encoding="utf-8"))
+              except Exception:
+                  user_colors = {}
+          else:
+              user_colors = {}
+
+          COLOR_MAP = {**DEFAULT_COLORS, **{k.lower(): v for k, v in user_colors.items()}}
+
+          def normalize_dep(name: str) -> str:
+              name = name.strip()
+              if name.startswith("@"):
+                  name = name[1:]
+              parts = name.split("/")
+              base = parts[-1] if parts else name
+              return base.lower()
+
+          def shields_url(label: str, key: str) -> str:
+              label_q = quote(label.replace(" ", "_"))
+              color = COLOR_MAP.get(key, "000000")  # default black if unknown
+              logo_slug = quote(key)
+              return (
+                  f"https://img.shields.io/badge/{label_q}-{color}"
+                  f"?style=flat&logo={logo_slug}&logoColor=white"
+              )
+
+          def badge_for(dep_name: str) -> str:
+              key = normalize_dep(dep_name)
+              url = shields_url(dep_name, key)
+              return f'<img src="{url}" alt="{dep_name}" />'
 
           # Load stack report JSON
-          data = json.loads(Path("stack-report.json").read_text(encoding="utf-8"))
+          report_path = Path("stack-report.json")
+          if not report_path.exists():
+              print("stack-report.json not found, aborting")
+              raise SystemExit(0)
 
-          # Build HTML table to embed into README
+          data = json.loads(report_path.read_text(encoding="utf-8"))
+          if not data:
+              print("No data in stack-report.json, nothing to update")
+              raise SystemExit(0)
+
           rows = []
           for item in sorted(data, key=lambda x: x["repo"].lower()):
               repo = item.get("repo", "")
-              stack = item.get("stack", "")
-              rows.append(f'    <tr><td><code>{repo}</code></td><td>{stack}</td></tr>')
+              deps_raw = item.get("stack", "")
+              if not deps_raw:
+                  continue
+
+              deps = [d.strip() for d in deps_raw.split(",") if d.strip()]
+              if not deps:
+                  continue
+
+              badges_html = " ".join(badge_for(d) for d in deps)
+              rows.append(
+                  "    <tr>"
+                  f"<td><code>{repo}</code></td>"
+                  f"<td><p>{badges_html}</p></td>"
+                  "</tr>"
+              )
+
+          if not rows:
+              print("No rows to render, nothing to update")
+              raise SystemExit(0)
 
           table_block = (
               "<!-- STACK-REPORT-START -->\n"
               "<table>\n"
-              "  <thead><tr><th>Repository</th><th>Stack</th></tr></thead>\n"
+              "  <thead><tr><th>Repository</th><th>Dependencies</th></tr></thead>\n"
               "  <tbody>\n"
               + "\n".join(rows) + "\n"
               "  </tbody>\n"
@@ -121,7 +111,7 @@ jobs:
 
           content = readme_path.read_text(encoding="utf-8")
 
-          # Remove previous generated block if exists
+          # Remove previous generated block
           content = re.sub(
               r"<!-- STACK-REPORT-START -->.*?<!-- STACK-REPORT-END -->\\s*",
               "",
@@ -129,29 +119,22 @@ jobs:
               flags=re.DOTALL,
           )
 
-          # Find second <div ...> and insert table right after its opening tag
-          matches = list(re.finditer(r"<div[^>]*>", content))
-          if len(matches) < 2:
-              raise SystemExit("README.md does not contain at least two <div> elements")
+          # Insert AFTER the second <div>...</div> block
+          blocks = list(re.finditer(r"<div[^>]*>[\\s\\S]*?</div>", content))
+          if len(blocks) < 2:
+              raise SystemExit("README.md does not contain at least two <div>...</div> blocks")
 
-          second = matches[1]
-          insert_pos = second.end()
+          second_block = blocks[1]
+          insert_pos = second_block.end()
 
           new_content = content[:insert_pos] + "\n\n" + table_block + "\n" + content[insert_pos:]
-
           readme_path.write_text(new_content, encoding="utf-8")
           EOF
 
-      - name: Commit and push if README changed
-        run: |
-          set -euo pipefail
-
-          if git diff --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -am "chore: update stack report in README"
-          git push
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: 'Update stack inventory in README'
+          add: 'README.md'
