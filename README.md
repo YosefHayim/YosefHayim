@@ -7,17 +7,17 @@
 
 ### 📫 Connect with me
 <div>
-  <div>
+  <p>
       <img src="https://img.shields.io/badge/LinkedIn-yosef--hayim--sabag-0A66C2?style=flat&logo=linkedin&logoColor=white" />
-  </div>
+  </p>
 
-  <div>
+  <p>
       <img src="https://img.shields.io/badge/Portfolio-josephsabag.onrender.com-000000?style=flat&logo=windowsterminal&logoColor=white" />
-  </div>
+  </p>
   
-  <div>
+  <p>
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" />
-  </div>
+  </p>
 </div>
 
 
