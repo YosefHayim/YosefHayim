@@ -1,0 +1,43 @@
+name: Sync Tech Stack Badges
+
+on:
+  # Run every 12 hours
+  schedule:
+    - cron: '0 */12 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main (optional)
+  push:
+    branches:
+      - main
+
+jobs:
+  update-tech-stack:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update Tech Stack Badges
+        uses: YosefHayim/readme-profile-tech-stack-sync@claude/github-actions-auto-publish-019GvZQSgDSx2sChiXLWR9YY
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          readme_path: 'README.md'
+          start_marker: '<!-- TECHSTACK:START -->'
+          end_marker: '<!-- TECHSTACK:END -->'
+          include_private: false
+          min_percentage: 1
+          badge_style: 'flat'
+          sort_by: 'usage'
+          max_badges: 0
+          include_frameworks: true
+          exclude_languages: ''
+          commit_message: 'chore: auto-update tech stack badges'
