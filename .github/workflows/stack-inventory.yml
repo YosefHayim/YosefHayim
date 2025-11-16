@@ -2,7 +2,7 @@ name: Update Stack Inventory
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Run daily at midnight UTC
+    - cron: "0 0 * * *" # Run daily at midnight UTC
   workflow_dispatch: # Allow manual triggering
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Update README after second <div> with stack report
         run: |
@@ -30,11 +30,9 @@ jobs:
           # Load user color overrides (from badges README or wherever)
           colors_path = Path("badge-colors.json")
               try:
-                  user_colors = json.loads(colors_path.read_text(encoding="utf-8"))
+                  user_colors = json.loads(colors_path.read_text(encoding="utf-8")) if colors_path.exists() else {}
               except Exception:
                   user_colors = {}
-          else:
-              user_colors = {}
 
           COLOR_MAP = {**DEFAULT_COLORS, **{k.lower(): v for k, v in user_colors.items()}}
 
@@ -136,5 +134,5 @@ jobs:
         with:
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: 'Update stack inventory in README'
-          add: 'README.md'
+          message: "Update stack inventory in README"
+          add: "README.md"
