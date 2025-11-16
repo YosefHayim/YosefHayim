@@ -27,32 +27,6 @@
 
 <div>
 
-<!-- STACK-REPORT-START -->
-<table>
-  <thead><tr><th>Repository</th><th>Stack</th></tr></thead>
-  <tbody>
-    <tr><td><code>ai-google-calendar-assistant</code></td><td>nodejs+typescript</td></tr>
-    <tr><td><code>ai-ocr-parser-web</code></td><td>unknown</td></tr>
-    <tr><td><code>chatgpt-message-jumper-extension</code></td><td>unknown</td></tr>
-    <tr><td><code>ebay-mcp</code></td><td>nodejs+typescript</td></tr>
-    <tr><td><code>ebay-mcp-docs</code></td><td>unknown</td></tr>
-    <tr><td><code>iitc-bootcamp</code></td><td>unknown</td></tr>
-    <tr><td><code>learning</code></td><td>unknown</td></tr>
-    <tr><td><code>next-js-dashboard-course</code></td><td>nodejs+react+typescript</td></tr>
-    <tr><td><code>portfolio-web</code></td><td>nodejs+react+typescript</td></tr>
-    <tr><td><code>projects-with-chatgpt</code></td><td>unknown</td></tr>
-    <tr><td><code>quizio-ai-app</code></td><td>unknown</td></tr>
-    <tr><td><code>template-repo</code></td><td>unknown</td></tr>
-    <tr><td><code>translate-extension-shopify</code></td><td>nodejs+react+typescript</td></tr>
-    <tr><td><code>udemy-clone-ron-ben-iitc</code></td><td>unknown</td></tr>
-    <tr><td><code>YosefHayim</code></td><td>unknown</td></tr>
-  </tbody>
-</table>
-<!-- STACK-REPORT-END -->
-
-
-
-  <!-- Programming Languages -->
   <h3>Programming Languages</h3>
   <p>
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
