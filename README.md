@@ -8,17 +8,24 @@
 ### 📫 Connect with me
 <div>
   <p>
+    <a href="https://www.linkedin.com/in/yosef-hayim-sabag" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-yosef--hayim--sabag-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+    </a>
   </p>
 
   <p>
+    <a href="https://josephsabag.onrender.com" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-josephsabag.onrender.com-000000?style=flat&logo=windowsterminal&logoColor=white" />
+    </a>
   </p>
   
   <p>
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" />
+    <a href="mailto:yosefhayimsabag@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" />
+    </a>
   </p>
 </div>
+
 
 
 ---
