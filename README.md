@@ -74,6 +74,12 @@
 ---
 
 ### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yosefhayim&show_icons=true&theme=radical" width="30%" height="60%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=yosefhayim&layout=compact&theme=radical" width="30%" height="60%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yosefhayim&theme=radical" width="30%" height="60%"/>
+</p>
+
 ![Snake animation](https://github.com/YosefHayim/YosefHayim/blob/output/github-contribution-grid-snake.svg)
 
 ---
