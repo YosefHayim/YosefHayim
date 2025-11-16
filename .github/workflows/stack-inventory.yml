@@ -3,7 +3,7 @@ name: Stack inventory for all repos
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * 1"   # every Monday 03:00 UTC
+    - cron: "0 3 * * 1" # every Monday 03:00 UTC
 
 permissions:
   contents: write
@@ -12,8 +12,8 @@ jobs:
   scan-stacks:
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ secrets.GH_STACK_TOKEN }}   # PAT with repo scope, used by gh CLI
-      GH_ORG: your-org-or-username             # set to your user/org name
+      GH_TOKEN: ${{ github.token }}
+      GH_ORG: yosefhayim # set to your user/org name
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
