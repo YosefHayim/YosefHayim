@@ -19,11 +19,10 @@
     </a>
   </p>
   
-  <p>
-    <a href="mailto:yosefhayimsabag@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white" />
-    </a>
-  </p>
+<p>
+  <img src="https://img.shields.io/badge/Gmail-yosefisabag@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" />
+</p>
+
 </div>
 
 
