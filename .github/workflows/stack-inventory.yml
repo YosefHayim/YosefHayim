@@ -34,7 +34,7 @@ jobs:
           except Exception:
               user_colors = {}
 
-          COLOR_MAP = {**DEFAULT_COLORS, **{k.lower(): v for k, v in user_colors.items()}}
+          COLOR_MAP = {k.lower(): v for k, v in user_colors.items()}
 
           def normalize_dep(name: str) -> str:
               name = name.strip()
