@@ -29,10 +29,10 @@ jobs:
 
           # Load user color overrides (from badges README or wherever)
           colors_path = Path("badge-colors.json")
-              try:
-                  user_colors = json.loads(colors_path.read_text(encoding="utf-8")) if colors_path.exists() else {}
-              except Exception:
-                  user_colors = {}
+          try:
+              user_colors = json.loads(colors_path.read_text(encoding="utf-8")) if colors_path.exists() else {}
+          except Exception:
+              user_colors = {}
 
           COLOR_MAP = {**DEFAULT_COLORS, **{k.lower(): v for k, v in user_colors.items()}}
 
