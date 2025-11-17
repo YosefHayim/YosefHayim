@@ -29,7 +29,7 @@
 
 ---
 
-### When I code and drink coffee, it is usually with these tech stacks
+### When I code and drink coffee ☕, it is usually with these tech stacks
 
 <!-- TECHSTACK:START -->
 <!-- Auto-generated. Do not edit manually. -->
