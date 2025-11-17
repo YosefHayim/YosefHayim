@@ -8,10 +8,10 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
-  # Run on push to main (optional)
+  # Run on push to dev (optional)
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   update-tech-stack:
