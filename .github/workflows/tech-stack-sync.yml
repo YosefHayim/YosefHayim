@@ -26,18 +26,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Update Tech Stack Badges
-        uses: YosefHayim/readme-profile-tech-stack-sync@claude/github-actions-auto-publish-019GvZQSgDSx2sChiXLWR9YY
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          readme_path: 'README.md'
-          start_marker: '<!-- TECHSTACK:START -->'
-          end_marker: '<!-- TECHSTACK:END -->'
-          include_private: false
-          min_percentage: 1
-          badge_style: 'flat'
-          sort_by: 'usage'
-          max_badges: 0
-          include_frameworks: true
-          exclude_languages: ''
-          commit_message: 'chore: auto-update tech stack badges'
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run tech stack scanner
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python .github/scripts/sync-tech-stack.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update tech stack badges" && git push)
