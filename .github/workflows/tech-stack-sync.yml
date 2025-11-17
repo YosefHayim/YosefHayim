@@ -21,28 +21,63 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout all repositories
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get list of all repositories
+        id: repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching all repositories for ${{ github.repository_owner }}..."
+          # Extract current repo name from github.repository (format: owner/repo)
+          CURRENT_REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+          REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/${{ github.repository_owner }}/repos?per_page=100&type=owner" \
+            | jq -r '.[].name' | grep -v "^${CURRENT_REPO}$" || true)
+          echo "repos<<EOF" >> $GITHUB_OUTPUT
+          echo "$REPOS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Clone and analyze repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p /tmp/repos
+          echo "[]" > /tmp/all-stacks.json
+
+          # Analyze each repository
+          for repo in ${{ steps.repos.outputs.repos }}; do
+            echo "Analyzing $repo..."
+            cd /tmp/repos
+            git clone "https://github.com/${{ github.repository_owner }}/$repo.git" "$repo" 2>/dev/null || continue
+            cd "$repo"
+
+            # Run stack analyser on this repo
+            npx -y @specfy/stack-analyser . --output="/tmp/stack-$repo.json" || continue
+
+            cd ..
+            rm -rf "$repo"
+          done
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Run tech stack scanner
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-        run: python .github/scripts/sync-tech-stack.py
+      - name: Aggregate and generate badges
+        run: python .github/scripts/aggregate-stacks.py
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update tech stack badges" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update tech stack badges [700+ tech detection]" && git push)
