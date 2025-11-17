@@ -31,6 +31,10 @@
 
 ### When I code and drink coffee, it is usually with these tech stacks
 
+<p align="center">
+  <img src="./assets/coffee.svg" alt="Coffee" width="180"/>
+</p>
+
 <!-- TECHSTACK:START -->
 <!-- Auto-generated. Do not edit manually. -->
 <!-- TECHSTACK:END -->
