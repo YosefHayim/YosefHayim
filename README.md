@@ -27,12 +27,11 @@
 
 ### 🚀 Deployed Projects
 *Showcasing live applications and technical implementations.*
-
 | Project | Tech Stack | Live Demo |
-| :--- | :--- | :--- |
+| --- | --- | --- |
 | **Tim Trailers** | Vanilla JS, CSS3, HTML5 | [Live 🔗](https://yosefhayim.github.io/tim-trailers-vanilla-js/) |
 | **Personal Portfolio** | React, Tailwind, Render | [Live 🔗](https://josephsabag.onrender.com) |
-
+| **Sora Auto Queue Prompts** | Chrome Extension, JavaScript, OpenAI API | [Live 🔗](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) |
 
 ---
 
