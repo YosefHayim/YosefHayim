@@ -36,6 +36,8 @@
 | **eBay MCP** | TypeScript, Model Context Protocol | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | ❌ | eBay API requires HTTPS; no HTTP/MCP support yet. |
 | **OCR Parser AI** | React, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | — |
 
+---
+
 ### When I code and drink coffee ☕, it is usually with these tech stacks
 
 <!-- TECHSTACK:START -->
