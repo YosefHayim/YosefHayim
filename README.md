@@ -27,13 +27,14 @@
 
 ### 🚀 Deployed Projects
 *Showcasing live applications and technical implementations.*
-| Project | Tech Stack | Live Demo |
-| --- | --- | --- |
-| **Tim Trailers** | Vanilla JS, CSS3, HTML5 | [Live 🔗](https://yosefhayim.github.io/tim-trailers-vanilla-js/) |
-| **Personal Portfolio** | React, Tailwind, Render | [Live 🔗](https://josephsabag.onrender.com) |
-| **Sora Auto Queue Prompts** | Chrome Extension, JavaScript, OpenAI API | [Live 🔗](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) |
-| **eBay MCP** | TypeScript, Model Context Protocol | [Repo 🔗](https://github.com/YosefHayim/ebay-mcp) (Local Only) |
----
+
+| Project | Tech Stack | Repo | Live |
+| :--- | :--- | :---: | :---: |
+| **Tim Trailers** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [✅](https://yosefhayim.github.io/tim-trailers-vanilla-js/) |
+| **Personal Portfolio** | React, Tailwind | — | [✅](https://josephsabag.onrender.com) |
+| **Sora Auto Queue** | Chrome Ext, JS, OpenAI | — | [✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) |
+| **eBay MCP** | TypeScript, Model Context Protocol | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | ❌ |
+| **OCR Parser AI** | React, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [✅](https://yosefhayim.github.io/ai-ocr-parser-web/) |
 
 ### When I code and drink coffee ☕, it is usually with these tech stacks
 
