@@ -33,8 +33,6 @@
 | **Personal Portfolio** | React, Tailwind, Render | [Live 🔗](https://josephsabag.onrender.com) |
 | **Sora Auto Queue Prompts** | Chrome Extension, JavaScript, OpenAI API | [Live 🔗](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) |
 | **eBay MCP** | TypeScript, Model Context Protocol | [Repo 🔗](https://github.com/YosefHayim/ebay-mcp) (Local Only) |
-
-### Would you like me to generate a README.md snippet for the eBay MCP project to help users run it locally?
 ---
 
 ### When I code and drink coffee ☕, it is usually with these tech stacks
