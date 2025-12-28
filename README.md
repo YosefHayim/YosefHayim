@@ -30,12 +30,12 @@
 
 | Project | Tech Stack | Repo | Live | Notes |
 | :--- | :--- | :---: | :---: | :--- |
-| **Tim Trailers** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://yosefhayim.github.io/tim-trailers-vanilla-js/) | — |
-| **Personal Portfolio** | TS,React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | — |
-| **Sora Auto Queue** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | View [✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | — |
-| **Gemini Nano Flow** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | View [✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm?authuser=0&hl=iw) | — |
+| **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://yosefhayim.github.io/tim-trailers-vanilla-js/) | — |
+| **Personal Portfolio Web** | TS,React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | — |
+| **Sora Auto Queue Extension** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | View [✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | — |
+| **Gemini Nano Flow Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | View [✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm?authuser=0&hl=iw) | — |
 | **eBay MCP (OSP)** | TS,Node.js, Model Context Protocol,eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | ❌ | eBay API requires HTTPS; no HTTP/MCP support yet. |
-| **OCR Parser AI** | TS, React, Express,Node.js, Express, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | — |
+| **OCR Parser AI Web** | TS, React, Express,Node.js, Express, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | — |
 
 ---
 
