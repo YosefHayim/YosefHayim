@@ -36,6 +36,7 @@
 | **Gemini Nano Flow Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | View [✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm?authuser=0&hl=iw) | — |
 | **eBay MCP (OSP)** | TS,Node.js, Model Context Protocol,eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | ❌ | eBay API requires HTTPS; no HTTP/MCP support yet. |
 | **OCR Parser AI Web** | TS, React, Express,Node.js, Express, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | — |
+| **Udemy Clone** | TS, React, Vite, Redux, TailwindCSS, Node.js, Express, MongoDB, Socket.IO, PayPal API | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | Full-stack e-learning platform |
 
 ---
 
@@ -59,19 +60,23 @@
   <p>
     <img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="React" />
     <img src="https://img.shields.io/badge/react%20native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="React Native" />
+    <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white" alt="Vite" />
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5" />
     <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3" />
     <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
     <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white" alt="Axios" />
     <img src="https://img.shields.io/badge/Shadcn_UI-000000?style=flat" alt="Shadcn" />
+    <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat&logo=radixui&logoColor=white" alt="Radix UI" />
     <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=reactrouter&logoColor=white" alt="React Router" />
     <img src="https://img.shields.io/badge/Zustand-000000?style=flat" alt="Zustand" />
     <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat&logo=reactquery&logoColor=white" alt="React Query" />
-    <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=flat&logo=redux&logoColor=white" alt="Redux" />
+    <img src="https://img.shields.io/badge/Redux_Toolkit-%23593d88.svg?style=flat&logo=redux&logoColor=white" alt="Redux Toolkit" />
     <img src="https://img.shields.io/badge/MUI-%23007FFF.svg?style=flat&logo=mui&logoColor=white" alt="MUI" />
+    <img src="https://img.shields.io/badge/Video.js-000000?style=flat" alt="Video.js" />
     <img src="https://img.shields.io/badge/Storybook-FF4785?style=flat&logo=storybook&logoColor=white" alt="Storybook" />
     <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright" />
     <img src="https://img.shields.io/badge/Zod-306AFF?style=flat" alt="Zod" />
+    <img src="https://img.shields.io/badge/WXT-4A90E2?style=flat" alt="WXT" />
   </p>
 
   <!-- Backend -->
@@ -79,12 +84,18 @@
   <p>
     <img src="https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white" alt="NodeJS" />
     <img src="https://img.shields.io/badge/express.js-black?style=flat&logo=express&logoColor=white" alt="Express" />
+    <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white" alt="Socket.IO" />
     <img src="https://img.shields.io/badge/JWT-black?style=flat&logo=jsonwebtokens&logoColor=white" alt="JWT" />
     <img src="https://img.shields.io/badge/Bcrypt-3380FF?style=flat" alt="Bcrypt" />
     <img src="https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white" alt="Mongoose" />
+    <img src="https://img.shields.io/badge/Multer-FF6600?style=flat" alt="Multer" />
     <img src="https://img.shields.io/badge/Sharp-00A2E0?style=flat" alt="Sharp" />
+    <img src="https://img.shields.io/badge/Nodemailer-0F9DCE?style=flat" alt="Nodemailer" />
     <img src="https://img.shields.io/badge/PayPal_API-003087?style=flat&logo=paypal&logoColor=white" alt="PayPal API" />
     <img src="https://img.shields.io/badge/Google_Authentication-4285F4?style=flat&logo=google&logoColor=white" alt="Google Auth" />
+    <img src="https://img.shields.io/badge/Google_Calendar_API-4285F4?style=flat&logo=googlecalendar&logoColor=white" alt="Google Calendar API" />
+    <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI API" />
+    <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat&logo=googlegemini&logoColor=white" alt="Gemini API" />
     <img src="https://img.shields.io/badge/Ebay_API-0064D2?style=flat&logo=ebay&logoColor=white" alt="Ebay API" />
     <img src="https://img.shields.io/badge/Grammy_JS-000000?style=flat" alt="GrammyJS" />
     <img src="https://img.shields.io/badge/EJS-808080?style=flat" alt="EJS" />
