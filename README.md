@@ -25,15 +25,24 @@
 ### 🚀 Deployed Projects
 *Showcasing live applications and technical implementations.*
 
-| Project | Tech Stack | Repo | Live | Notes |
-| :--- | :--- | :---: | :---: | :--- |
+Here is the updated table with **AI Conversation Navigator** added.
+
+### Updated Projects Table
+
+| Project | Tech Stack | Repo | Deployed | Notes |
+| --- | --- | --- | --- | --- |
 | **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://yosefhayim.github.io/tim-trailers-vanilla-js/) | — |
 | **Personal Portfolio Web** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | — |
-| **Sora Auto Queue Extension** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | View [✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | — |
-| **Gemini Nano Flow Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | View [✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm?authuser=0&hl=iw) | — |
+| **Sora Auto Queue Extension** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | — |
+| **Gemini Nano Flow Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm?authuser=0&hl=iw) | — |
+| **AI Conversation Navigator Extension** | WXT, TS | [View Repo 🔗](https://github.com/YosefHayim/extension-ai-conversation-navigator) | [View ✅](https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg?authuser=0) | Unified sidebar for ChatGPT, Claude & Gemini. |
 | **eBay MCP (OSP)** | TS, Node.js, Model Context Protocol, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | ❌ | eBay API requires HTTPS; no HTTP/MCP support yet. |
 | **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | — |
 | **Udemy Clone** | TS, React, Vite, Redux, TailwindCSS, Node.js, Express, MongoDB, Socket.IO, PayPal API | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | Full-stack e-learning platform |
+
+---
+
+Would you like me to generate a specific README or technical summary for the **AI Conversation Navigator** based on that description?
 
 ---
 
