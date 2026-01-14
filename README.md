@@ -6,18 +6,18 @@
 <div>
   <p>
     <a href="https://www.linkedin.com/in/yosef-hayim-sabag" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-yosef--hayim--sabag-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+      <img src="https://img.shields.io/badge/LinkedIn-Yosef--Hayim--Sabag-0A66C2?style=flat&logo=linkedin&logoColor=white" />
     </a>
   </p>
 
   <p>
     <a href="https://josephsabag.onrender.com" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-josephsabag.onrender.com-000000?style=flat&logo=windowsterminal&logoColor=white" />
+      <img src="https://img.shields.io/badge/Portfolio-JosephSabag.onrender.com-000000?style=flat&logo=windowsterminal&logoColor=white" />
     </a>
   </p>
   
 <p>
-  <img src="https://img.shields.io/badge/Gmail-yosefisabag@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gmail-YosefiSabag@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" />
 </p>
 
 </div>
