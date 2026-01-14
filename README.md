@@ -22,15 +22,13 @@
 
 </div>
 
-Here is the updated **Deployed Projects** section. I have added **AskAlly.io** to the top of the table as a featured project, summarizing the stack as requested.
-
 ### 🚀 Deployed Projects
 
 *Showcasing live applications and technical implementations.*
 
 | Project | Tech Stack | Repo | Deployed | Notes |
 | --- | --- | --- | --- | --- |
-| **AskAlly.io** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | [View Repo 🔗](https://www.google.com/search?q=%23) | [View ✅](https://www.google.com/url?sa=E&source=gmail&q=https://askally.io) | Omnichannel AI Assistant with multi-platform bot integrations. |
+| **Ask Ally - AI Google Calendar** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | [View Repo 🔗](https://www.google.com/search?q=%23) | [View ✅](https://www.google.com/url?sa=E&source=gmail&q=https://askally.io) | Omnichannel AI Assistant with multi-platform bot integrations. |
 | **AI Conversation Navigator** | WXT, TS | [View Repo 🔗](https://github.com/YosefHayim/extension-ai-conversation-navigator) | [View ✅](https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg?authuser=0) | Unified sidebar for ChatGPT, Claude & Gemini. |
 | **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://yosefhayim.github.io/tim-trailers-vanilla-js/) | — |
 | **Personal Portfolio Web** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | — |
