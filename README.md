@@ -35,12 +35,9 @@
 | **Sora Auto Queue Extension** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | — |
 | **Gemini Nano Flow Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm?authuser=0&hl=iw) | — |
 | **eBay MCP (OSP)** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | ❌ | eBay API requires HTTPS; no HTTP/MCP support yet. |
+| **Chrome Extension API Reference MCP (OSP)** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | ❌ | Local MCP server for Chrome Extensions API reference for AI Agents. |
 | **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | — |
 | **Udemy Clone** | TS, React, Vite, Redux, Node.js, Express, MongoDB | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | Full-stack e-learning platform. |
-
----
-
-Would you like me to generate a specific README or technical summary for the **AI Conversation Navigator** based on that description?
 
 ---
 
