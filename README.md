@@ -28,15 +28,15 @@
 
 | Project | Tech Stack | Repo | Deployed | Notes |
 | --- | --- | --- | --- | --- |
-| **Ask Ally - AI Google Calendar** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | [View Repo 🔗](https://www.google.com/search?q=%23) | [View ✅](https://www.google.com/url?sa=E&source=gmail&q=https://askally.io) | Omnichannel AI Assistant with multi-platform bot integrations. |
+| **Ask Ally - AI Google Calendar** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | [View Repo 🔗](https://www.google.com/search?q=%23) | [View ✅](https://www.google.com/url?sa=E&source=gmail&q=https://askally.io) | Omnichannel AI Assistant with multi-platform bot integrations. developed out of pain tracking my schedule |
 | **AI Conversation Navigator** | WXT, TS | [View Repo 🔗](https://github.com/YosefHayim/extension-ai-conversation-navigator) | [View ✅](https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg?authuser=0) | Unified sidebar for ChatGPT, Claude & Gemini. |
-| **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://yosefhayim.github.io/tim-trailers-vanilla-js/) | — |
-| **Personal Portfolio Web** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | — |
-| **Sora Auto Queue Extension** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | — |
-| **Gemini Nano Flow Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm?authuser=0&hl=iw) | — |
+| **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://yosefhayim.github.io/tim-trailers-vanilla-js/) | 2 months in tech, first project in vanilla JavaScript. |
+| **Personal Portfolio Web v2** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | A real portfolio website that demonstrate creativity. |
+| **Sora Auto Queue Extension** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | Developed for need for automation images creations, has **30 users** |
+| **Gemini Nano Flow Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm) | Developed for need for automation images creations, has **43 users** |
 | **eBay MCP (OSP)** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | - | eBay API requires HTTPS; no HTTP/MCP support yet. |
 | **Chrome Extension API Reference MCP (OSP)** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | - | Local MCP server for Chrome Extensions API reference for AI Agents. |
-| **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | — |
+| **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | Developed tool for my great mother. |
 | **Udemy Clone** | TS, React, Vite, Redux, Node.js, Express, MongoDB | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | Full-stack e-learning platform. |
 
 ---
