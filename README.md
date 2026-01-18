@@ -37,7 +37,7 @@
 | **eBay MCP (OSP)** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | - | Has **10 stars** local MCP for building on eBay Rest API|
 | **Chrome Extension API Reference MCP (OSP)** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | - | Local MCP server for Chrome Extensions API reference for AI Agents. |
 | **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | Developed tool for my great mother. |
-| **Udemy Clone** | TS, React, Vite, Redux, Node.js, Express, MongoDB | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | Full-stack e-learning platform. |
+| **Udemy Clone** | TS, React, Vite, Redux, Node.js, Express, MongoDB | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | Full-stack e-learning platform, final bootcamp project  |
 
 ---
 
