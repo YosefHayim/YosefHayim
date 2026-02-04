@@ -22,22 +22,60 @@
 
 </div>
 
-### 🚀 Deployed Projects
+### 🚀 Production & Live Projects
 
-*Showcasing live applications and technical implementations.*
+*Deployed applications with real users.*
 
-| Project | Tech Stack | Repo | Deployed | Notes |
+| Project | Tech Stack | Repo | Deployed | Status | Notes |
+| --- | --- | --- | --- | --- | --- |
+| **Ask Ally - AI Google Calendar** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | Private | [View ✅](https://askally.io) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Omnichannel AI Assistant with multi-platform bot integrations |
+| **AI Conversation Navigator Extension** | WXT, TS | [View Repo 🔗](https://github.com/YosefHayim/extension-ai-conversation-navigator) | [View ✅](https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Unified sidebar for ChatGPT, Claude & Gemini |
+| **Sora Auto Queue Extension** | WXT, TS, OpenAI | Private | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Automated prompt queuing, **83 users** |
+| **Prompt Queue Gemini Extension** | WXT, TS, Gemini API | Private | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Automated prompt queuing for Gemini, **95 users** |
+| **Personal Portfolio Web** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Personal portfolio website |
+| **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Invoice data extraction tool |
+| **Udemy Clone** | TS, React, Vite, Redux, Node.js, Express, MongoDB | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Full-stack e-learning platform, bootcamp final project |
+| **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://iitc-b-frontend-vanilla-tim-trailers.onrender.com/) | ![Archive](https://img.shields.io/badge/Archive-9E9E9E?style=flat) | First project - vanilla JavaScript |
+
+---
+
+### 🔧 In Active Development
+
+*Projects currently being built or actively maintained.*
+
+| Project | Tech Stack | Repo | Status | Description |
 | --- | --- | --- | --- | --- |
-| **Ask Ally - AI Google Calendar** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | [View Repo 🔗](https://github.com/YosefHayim/ai-google-calendar-assistant) | [View ✅](https://www.google.com/url?sa=E&source=gmail&q=https://askally.io) | Omnichannel AI Assistant with multi-platform bot integrations. developed out of pain tracking my schedule |
-| **AI Conversation Navigator Extension** | WXT, TS | [View Repo 🔗](https://github.com/YosefHayim/extension-ai-conversation-navigator) | [View ✅](https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg?authuser=0) | Unified sidebar for ChatGPT, Claude & Gemini. |
-| **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://iitc-b-frontend-vanilla-tim-trailers.onrender.com/) | 2 months in tech, first project in vanilla JavaScript. |
-| **Personal Portfolio Web v2** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | A real portfolio website that demonstrate creativity. |
-| **Sora Auto Queue Extension** | WXT, TS, OpenAI | [View Repo 🔗](https://github.com/YosefHayim/extension-sora-auto-queue-prompts) | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | Developed for need for automation images creations, has **80 users** |
-| **Prompt Queue Gemini Extension** | WXT, TS, Gemini API | [View Repo 🔗](https://github.com/YosefHayim/extension-gemini-auto-queue) | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm) | Developed for need for automation images creations, has **77 users** |
-| **eBay MCP (OSP)** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | - | Has **15 stars** local MCP for building on eBay Rest API|
-| **Chrome Extension API Reference MCP (OSP)** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | - | Local MCP server for Chrome Extensions API reference for AI Agents. |
-| **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | Developed tool for my great mother. |
-| **Udemy Clone** | TS, React, Vite, Redux, Node.js, Express, MongoDB | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | Full-stack e-learning platform, final bootcamp project  |
+| **QuickApply Extension** | WXT, React, TS, shadcn/ui, Lemon Squeezy | [View Repo 🔗](https://github.com/YosefHayim/quickapply-extension) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | One-click Chrome extension to auto-fill job applications |
+| **Vision Agent MAS** | TS, Multi-Agent System | [View Repo 🔗](https://github.com/YosefHayim/vision-agent-mas) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Vision-to-React Agentic Pipeline - transform UI images to React apps |
+| **Parallel AI Image Generation** | TS, Multi-Model AI | [View Repo 🔗](https://github.com/YosefHayim/parallel-ai-image-generation) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Trigger, compare, and analyze results from multiple AI models |
+| **Discord Signal AI Trader** | TS, NLP, Trading APIs | [View Repo 🔗](https://github.com/YosefHayim/discord-signal-ai-trader) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | AI-driven trading engine monitoring Discord signals |
+| **Facebook Lead AI Extension** | WXT, React, TS | [View Repo 🔗](https://github.com/YosefHayim/facebook-lead-ai-extension) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | AI scouting extension for Facebook leads with Human-in-the-Loop automation |
+| **Get Barber** | TS | [View Repo 🔗](https://github.com/YosefHayim/get-barber) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Barber booking platform |
+| **Instagram AI Thumbnail Replacer** | HTML, TS | [View Repo 🔗](https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Auto-replace Instagram thumbnails with AI |
+
+---
+
+### 🌐 Open Source Projects
+
+*Tools and MCPs for the developer community.*
+
+| Project | Tech Stack | Repo | Stars | Description |
+| --- | --- | --- | --- | --- |
+| **eBay MCP** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | **15** | Local MCP server for eBay Sell APIs - 387 tools for inventory, orders, marketing, analytics |
+| **Chrome Extension API MCP** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | - | MCP server for Chrome Extensions API reference for AI Agents |
+
+---
+
+### 📚 Learning & Archive
+
+*Educational projects and bootcamp work.*
+
+| Project | Tech Stack | Repo | Description |
+| --- | --- | --- | --- |
+| **IITC Bootcamp** | JS, React, Node.js, Python | [View Repo 🔗](https://github.com/YosefHayim/iitc-bootcamp) | Full collection from IITC Full Stack & Automation Developer Bootcamp |
+| **Next.js Dashboard Course** | TS, Next.js | [View Repo 🔗](https://github.com/YosefHayim/next-js-dashboard-course) | Official Next.js App Router course learning repo |
+| **Learning Archive** | JS, Various | [View Repo 🔗](https://github.com/YosefHayim/learning) | Personal archive of programming exercises |
+| **Projects with ChatGPT** | Python, Various | [View Repo 🔗](https://github.com/YosefHayim/projects-with-chatgpt) | Early AI-assisted projects - foundation of my technical growth |
 
 ---
 
