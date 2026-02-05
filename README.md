@@ -61,7 +61,8 @@
 
 | Project | Tech Stack | Repo | Stars | Description |
 | --- | --- | --- | --- | --- |
-| **eBay MCP** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | **15** | Local MCP server for eBay Sell APIs - 387 tools for inventory, orders, marketing, analytics |
+| **eBay MCP** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | **15** | Local MCP server for eBay Sell APIs - 270 unique endpoints for inventory, orders, marketing, analytics |
+| **Discord MCP** | TS, Node.js, MCP, Discord API | [View Repo 🔗](https://github.com/YosefHayim/discord-mcp) | - | Local MCP Discord server from JSON blueprints - create roles, channels, categories with 6 templates |
 | **Chrome Extension API MCP** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | - | MCP server for Chrome Extensions API reference for AI Agents |
 
 ---
