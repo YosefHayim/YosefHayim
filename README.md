@@ -28,14 +28,14 @@
 
 | Project | Tech Stack | Repo | Deployed | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
-| **Ask Ally - AI Google Calendar** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | Private | [View ✅](https://askally.io) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Omnichannel AI Assistant with multi-platform bot integrations |
+| **Ask Ally - Your AI Secretary** | TS, Next.js, Express, OpenAI, Telegram/Slack/WhatsApp | Private | [View ✅](https://askally.io) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Omnichannel AI Assistant with multi-platform bot integrations |
 | **AI Conversation Navigator Extension** | WXT, TS | [View Repo 🔗](https://github.com/YosefHayim/extension-ai-conversation-navigator) | [View ✅](https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Unified sidebar for ChatGPT, Claude & Gemini |
-| **Sora Auto Queue Extension** | WXT, TS, OpenAI | Private | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Automated prompt queuing, **83 users** |
-| **Prompt Queue Gemini Extension** | WXT, TS, Gemini API | Private | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Automated prompt queuing for Gemini, **95 users** |
-| **Personal Portfolio Web** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Personal portfolio website |
-| **OCR Parser AI Web** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Invoice data extraction tool |
+| **Sorqa Extension** | WXT, TS, OpenAI | Private | [View ✅](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Automated prompt queuing for Sora, **83 users** |
+| **Prompt Queue Extension** | WXT, TS, Gemini API | Private | [View ✅](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm) | ![Production](https://img.shields.io/badge/Production-00C853?style=flat) | Automated prompt queuing for Gemini, **95 users** |
+| **Portfolio Website** | TS, React, Tailwind | [View Repo 🔗](https://github.com/YosefHayim/portfolio-web) | [View ✅](https://josephsabag.onrender.com) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Personal portfolio website |
+| **AI OCR Parser - Web Document Scanner** | TS, React, Express, Node.js, OpenAI API | [View Repo 🔗](https://github.com/YosefHayim/ai-ocr-parser-web) | [View ✅](https://yosefhayim.github.io/ai-ocr-parser-web/) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Invoice data extraction tool |
 | **Udemy Clone** | TS, React, Vite, Redux, Node.js, Express, MongoDB | [View Repo 🔗](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc) | [View ✅](https://udemy-clone-ron-ben-iitc.onrender.com/) | ![Stable](https://img.shields.io/badge/Stable-2196F3?style=flat) | Full-stack e-learning platform, bootcamp final project |
-| **Tim Trailers Web** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://iitc-b-frontend-vanilla-tim-trailers.onrender.com/) | ![Archive](https://img.shields.io/badge/Archive-9E9E9E?style=flat) | First project - vanilla JavaScript |
+| **Tim Trailers - Vanilla JS** | Vanilla JS, CSS3, HTML5 | [View Repo 🔗](https://github.com/YosefHayim/tim-trailers-vanilla-js) | [View ✅](https://iitc-b-frontend-vanilla-tim-trailers.onrender.com/) | ![Archive](https://img.shields.io/badge/Archive-9E9E9E?style=flat) | First project - vanilla JavaScript |
 
 ---
 
@@ -50,7 +50,7 @@
 | **Parallel AI Image Generation** | TS, Multi-Model AI | [View Repo 🔗](https://github.com/YosefHayim/parallel-ai-image-generation) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Trigger, compare, and analyze results from multiple AI models |
 | **Discord Signal AI Trader** | TS, NLP, Trading APIs | [View Repo 🔗](https://github.com/YosefHayim/discord-signal-ai-trader) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | AI-driven trading engine monitoring Discord signals |
 | **Facebook Lead AI Extension** | WXT, React, TS | [View Repo 🔗](https://github.com/YosefHayim/facebook-lead-ai-extension) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | AI scouting extension for Facebook leads with Human-in-the-Loop automation |
-| **Get Barber** | TS | [View Repo 🔗](https://github.com/YosefHayim/get-barber) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Barber booking platform |
+| **Get Barber - Booking Platform** | TS | [View Repo 🔗](https://github.com/YosefHayim/get-barber) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Barber booking platform |
 | **Instagram AI Thumbnail Replacer** | HTML, TS | [View Repo 🔗](https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer) | ![Dev](https://img.shields.io/badge/In_Dev-FF9800?style=flat) | Auto-replace Instagram thumbnails with AI |
 
 ---
@@ -61,9 +61,9 @@
 
 | Project | Tech Stack | Repo | Stars | Description |
 | --- | --- | --- | --- | --- |
-| **eBay MCP** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | **15** | Local MCP server for eBay Sell APIs - 270 unique endpoints for inventory, orders, marketing, analytics |
-| **Discord MCP** | TS, Node.js, MCP, Discord API | [View Repo 🔗](https://github.com/YosefHayim/discord-mcp) | - | Local MCP Discord server from JSON blueprints - create roles, channels, categories with 6 templates |
-| **Chrome Extension API MCP** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | - | MCP server for Chrome Extensions API reference for AI Agents |
+| **eBay MCP Server** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) | **15** | Local MCP server for eBay Sell APIs - 270 unique endpoints for inventory, orders, marketing, analytics |
+| **Discord MCP Server** | TS, Node.js, MCP, Discord API | [View Repo 🔗](https://github.com/YosefHayim/discord-mcp) | - | Local MCP Discord server from JSON blueprints - create roles, channels, categories with 6 templates |
+| **Chrome Extension API Reference MCP** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) | - | MCP server for Chrome Extensions API reference for AI Agents |
 
 ---
 
