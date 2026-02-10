@@ -67,19 +67,6 @@
 
 ---
 
-### 📚 Learning & Archive
-
-*Educational projects and bootcamp work.*
-
-| Project | Tech Stack | Repo | Description |
-| --- | --- | --- | --- |
-| **IITC Bootcamp** | JS, React, Node.js, Python | [View Repo 🔗](https://github.com/YosefHayim/iitc-bootcamp) | Full collection from IITC Full Stack & Automation Developer Bootcamp |
-| **Next.js Dashboard Course** | TS, Next.js | [View Repo 🔗](https://github.com/YosefHayim/next-js-dashboard-course) | Official Next.js App Router course learning repo |
-| **Learning Archive** | JS, Various | [View Repo 🔗](https://github.com/YosefHayim/learning) | Personal archive of programming exercises |
-| **Projects with ChatGPT** | Python, Various | [View Repo 🔗](https://github.com/YosefHayim/projects-with-chatgpt) | Early AI-assisted projects - foundation of my technical growth |
-
----
-
 ### When I code and drink coffee ☕, it is usually with these tech stacks
 
 <div>
