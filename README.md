@@ -61,10 +61,10 @@
 
 | Project | Tech Stack | Repo | Stars | Description |
 | --- | --- | --- | --- | --- |
-| **import-pilot** | TS, Node.js, CLI | [View Repo 🔗](https://github.com/YosefHayim/import-pilot) [![npm](https://img.shields.io/npm/v/import-pilot.svg?style=flat-square)](https://www.npmjs.com/package/import-pilot) | - | CLI tool that scans your project and auto-fixes missing imports across JS/TS, Vue, Svelte, Astro, and Python |
-| **eBay MCP Server** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) [![npm](https://img.shields.io/npm/v/ebay-mcp.svg?style=flat-square)](https://www.npmjs.com/package/ebay-mcp) | **15** | Local MCP server for eBay Sell APIs - 270 unique endpoints for inventory, orders, marketing, analytics |
+| **import-pilot** | TS, Node.js, CLI | [View Repo 🔗](https://github.com/YosefHayim/import-pilot) · [npm 🔗](https://www.npmjs.com/package/import-pilot) | - | CLI tool that scans your project and auto-fixes missing imports across JS/TS, Vue, Svelte, Astro, and Python |
+| **eBay MCP Server** | TS, Node.js, MCP, eBay API | [View Repo 🔗](https://github.com/YosefHayim/ebay-mcp) · [npm 🔗](https://www.npmjs.com/package/ebay-mcp) | **15** | Local MCP server for eBay Sell APIs - 270 unique endpoints for inventory, orders, marketing, analytics |
 | **Discord MCP Server** | TS, Node.js, MCP, Discord API | [View Repo 🔗](https://github.com/YosefHayim/discord-mcp) | - | Local MCP Discord server from JSON blueprints - create roles, channels, categories with 6 templates |
-| **Chrome Extension API Reference MCP** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) [![npm](https://img.shields.io/npm/v/chrome-extension-api-mcp.svg?style=flat-square)](https://www.npmjs.com/package/chrome-extension-api-mcp) | - | MCP server for Chrome Extensions API reference for AI Agents |
+| **Chrome Extension API Reference MCP** | TS, Node.js, MCP | [View Repo 🔗](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) · [npm 🔗](https://www.npmjs.com/package/chrome-extension-api-mcp) | - | MCP server for Chrome Extensions API reference for AI Agents |
 
 ---
 
