@@ -30,7 +30,8 @@ SaaS platform for automating eBay dropshipping with Amazon product sourcing.
 
 ### eBay MCP Server
 MCP server providing AI assistants with comprehensive eBay Sell APIs access.
-- 15 GitHub stars
+- 26 GitHub stars, 18 forks
+- 648 npm downloads/month
 - 325 tools covering 100% of eBay Sell APIs
 - 958+ passing tests
 - Supports 9 AI clients (Claude, Cursor, Windsurf, etc.)
@@ -48,7 +49,7 @@ Unified sidebar for navigating ChatGPT, Claude, and Gemini conversations.
 
 ### Sorqa Extension
 Automated prompt queuing for Sora.
-- 83 active users
+- 233 active users
 - Published on [Chrome Web Store](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph)
 - Multiple patch releases shipped to fix real user issues
 
@@ -56,7 +57,7 @@ Automated prompt queuing for Sora.
 
 ### Prompt Queue Extension
 Automated prompt queuing for Gemini.
-- 95 active users
+- 133 active users
 - Published on [Chrome Web Store](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm)
 - Multiple patch releases shipped to fix real user issues
 
@@ -72,6 +73,7 @@ iOS calorie calculator app.
 
 ### Import Pilot
 CLI tool that scans your project and auto-fixes missing imports across JS/TS, Vue, Svelte, Astro, and Python.
+- 101 npm downloads/month
 - 101 unit tests
 - Supports 8+ languages and frameworks
 - Plugin-based architecture
@@ -82,10 +84,9 @@ CLI tool that scans your project and auto-fixes missing imports across JS/TS, Vu
 ### The Context Packer for AI
 AST-based semantic code analyzer that extracts function usage context for LLMs.
 - 218+ unit tests
-- Published as npm package and MCP server
 - Supports TypeScript, JavaScript, and Python
 - Multiple export formats (Markdown, JSON, CSV, XML)
-- [Repo](https://github.com/YosefHayim/The-Context-Packer-for-AI) · [npm](https://www.npmjs.com/package/context-packer)
+- [Repo](https://github.com/YosefHayim/The-Context-Packer-for-AI)
 
 ---
 
@@ -169,6 +170,7 @@ Monorepo with 30 popular app replicas built with Expo and a shared NestJS backen
 
 ### Chrome Extension API Reference MCP
 MCP server exposing Chrome Extensions API reference as queryable tools for AI agents.
+- 34 npm downloads/month
 - Full Chrome Extensions API coverage for AI consumption
 - [Repo](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) · [npm](https://www.npmjs.com/package/chrome-extension-api-mcp)
 
