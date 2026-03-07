@@ -10,232 +10,56 @@
 
 ## Projects
 
-### Ask Ally — Your AI Secretary
-Omnichannel AI assistant with multi-platform bot integrations for Telegram, Slack, and WhatsApp.
-- Live in production at [askally.io](https://askally.io)
-- Multi-platform bot integrations serving real users
-- Built with Next.js, Express, and OpenAI
+<a href="https://askally.io"><b>Ask Ally</b></a> (Private) — Omnichannel AI assistant with Telegram, Slack, and WhatsApp bots, live in production serving real users.
 
----
+<b>AutoBay</b> (Private) — eBay dropshipping SaaS with 136+ API routes, Stripe billing, Playwright scraping, deployed on AWS.
 
-### AutoBay
-SaaS platform for automating eBay dropshipping with Amazon product sourcing.
-- 136+ API routes with full eBay API coverage (Buy, Sell, Fulfillment, Analytics)
-- Stripe subscription billing and multi-account support
-- Deployed on AWS App Runner + Firebase
-- Playwright-powered product scraping from Amazon
-- [Repo](https://github.com/YosefHayim/autobay-fe-be)
+<a href="https://github.com/YosefHayim/ebay-mcp"><b>eBay MCP Server</b></a> — MCP server with 325 tools covering 100% of eBay Sell APIs. 26 stars, 18 forks, 648 npm downloads/month, 958+ tests. <a href="https://www.npmjs.com/package/ebay-mcp">npm</a>
 
----
+<a href="https://github.com/YosefHayim/extension-ai-conversation-navigator"><b>AI Conversation Navigator</b></a> — Unified sidebar for ChatGPT, Claude, and Gemini conversations. <a href="https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg">Chrome Web Store</a>
 
-### eBay MCP Server
-MCP server providing AI assistants with comprehensive eBay Sell APIs access.
-- 26 GitHub stars, 18 forks
-- 648 npm downloads/month
-- 325 tools covering 100% of eBay Sell APIs
-- 958+ passing tests
-- Supports 9 AI clients (Claude, Cursor, Windsurf, etc.)
-- [Repo](https://github.com/YosefHayim/ebay-mcp) · [npm](https://www.npmjs.com/package/ebay-mcp)
+<b>Sorqa Extension</b> (Private) — Automated prompt queuing for Sora, 233 users. <a href="https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph">Chrome Web Store</a>
 
----
+<b>Prompt Queue Extension</b> (Private) — Automated prompt queuing for Gemini, 133 users. <a href="https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm">Chrome Web Store</a>
 
-### AI Conversation Navigator Extension
-Unified sidebar for navigating ChatGPT, Claude, and Gemini conversations.
-- Published on [Chrome Web Store](https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg)
-- Supports 3 AI platforms in a single extension
-- [Repo](https://github.com/YosefHayim/extension-ai-conversation-navigator)
+<b>CalCalculator</b> (Private) — iOS calorie calculator published on the Apple App Store with Fastlane CI/CD and widget extension.
 
----
+<a href="https://github.com/YosefHayim/import-pilot"><b>Import Pilot</b></a> — CLI tool that auto-fixes missing imports across 8+ languages. 101 tests, 101 npm downloads/month. <a href="https://www.npmjs.com/package/import-pilot">npm</a>
 
-### Sorqa Extension
-Automated prompt queuing for Sora.
-- 233 active users
-- Published on [Chrome Web Store](https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph)
-- Multiple patch releases shipped to fix real user issues
+<a href="https://github.com/YosefHayim/The-Context-Packer-for-AI"><b>The Context Packer for AI</b></a> — AST-based code analyzer extracting function context for LLMs. 218+ tests, supports TS/JS/Python, multiple export formats.
 
----
+<b>AI Google Calendar Assistant</b> (Private) — AI-powered calendar assistant with Next.js, Gemini AI, Telegram bot, and real-time Socket.io updates.
 
-### Prompt Queue Extension
-Automated prompt queuing for Gemini.
-- 133 active users
-- Published on [Chrome Web Store](https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm)
-- Multiple patch releases shipped to fix real user issues
+<b>QuickApply Extension</b> (Private) — One-click Chrome extension to auto-fill job applications with WXT, React, and Lemon Squeezy payments.
 
----
+<a href="https://github.com/YosefHayim/discord-signal-ai-trader"><b>Discord Signal AI Trader</b></a> — AI trading engine parsing Discord signals and executing trades via Binance API with Redis and Drizzle ORM.
 
-### CalCalculator
-iOS calorie calculator app.
-- Published on the Apple App Store
-- Fastlane CI/CD automation for builds and submissions
-- Includes widget extension
+<a href="https://github.com/YosefHayim/facebook-lead-ai-extension"><b>Facebook Lead AI Extension</b></a> — AI scouting extension for Facebook leads with human-in-the-loop automation.
 
----
+<a href="https://github.com/YosefHayim/get-barber"><b>Get Barber</b></a> — On-demand barber booking mobile app with React Native, Expo, Supabase, map discovery, and real-time chat.
 
-### Import Pilot
-CLI tool that scans your project and auto-fixes missing imports across JS/TS, Vue, Svelte, Astro, and Python.
-- 101 npm downloads/month
-- 101 unit tests
-- Supports 8+ languages and frameworks
-- Plugin-based architecture
-- [Repo](https://github.com/YosefHayim/import-pilot) · [npm](https://www.npmjs.com/package/import-pilot)
+<a href="https://github.com/YosefHayim/CDP-Agent"><b>CDP-Agent</b></a> — Autonomous coding agent using Gemini via Chrome DevTools Protocol with ReAct loop architecture.
 
----
+<a href="https://github.com/YosefHayim/vision-agent-mas"><b>Vision Agent MAS</b></a> — Multi-agent system transforming UI images into React apps via Gemini API.
 
-### The Context Packer for AI
-AST-based semantic code analyzer that extracts function usage context for LLMs.
-- 218+ unit tests
-- Supports TypeScript, JavaScript, and Python
-- Multiple export formats (Markdown, JSON, CSV, XML)
-- [Repo](https://github.com/YosefHayim/The-Context-Packer-for-AI)
+<a href="https://github.com/YosefHayim/parallel-ai-image-generation"><b>Parallel AI Image Generation</b></a> — Compare and analyze image results from multiple AI models side by side.
 
----
+<b>Many Apps 30 Day Challenge</b> (Private) — Monorepo of 30 app replicas with Expo and shared NestJS backend, MongoDB, and Redis.
 
-### AI Google Calendar Assistant
-AI-powered Google Calendar assistant with web, mobile, and Telegram bot support.
-- Full-stack app with Next.js frontend and Express backend
-- Google Gemini AI integration for smart scheduling
-- Real-time updates via Socket.io
-- Supabase backend with Sentry monitoring and PostHog analytics
-- [Repo](https://github.com/YosefHayim/ai-google-calendar-assistant)
+<a href="https://github.com/YosefHayim/chrome-extension-api-reference-mcp"><b>Chrome Extension API Reference MCP</b></a> — MCP server exposing Chrome Extensions API for AI agents. 34 npm downloads/month. <a href="https://www.npmjs.com/package/chrome-extension-api-mcp">npm</a>
 
----
+<a href="https://github.com/YosefHayim/discord-mcp"><b>Discord MCP Server</b></a> — MCP server for provisioning Discord servers from JSON blueprints with 6 templates.
 
-### QuickApply Extension
-One-click Chrome extension to auto-fill job applications.
-- Built with WXT, React, shadcn/ui
-- Lemon Squeezy payment integration
-- [Repo](https://github.com/YosefHayim/quickapply-extension)
+<a href="https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer"><b>Instagram AI Thumbnail Replacer</b></a> — Chrome extension auto-replacing Instagram thumbnails with AI-generated alternatives.
 
----
+<b>Generalized Scraper</b> (Private) — AI web scraper accepting URL + schema, returning structured JSON via Stagehand and OpenAI.
 
-### Discord Signal AI Trader
-AI-driven trading engine that monitors Discord signals and executes trades.
-- Binance API integration for automated trading
-- NLP-powered signal parsing from Discord channels
-- Redis caching and Drizzle ORM
-- [Repo](https://github.com/YosefHayim/discord-signal-ai-trader)
+<b>Generate App Store Thumbnails</b> (Private) — Utility for generating App Store thumbnails with Docker and GitHub Actions CI/CD.
 
----
+<a href="https://github.com/YosefHayim/ai-ocr-parser-web"><b>AI OCR Parser</b></a> — Web document scanner extracting invoice data via OpenAI. <a href="https://yosefhayim.github.io/ai-ocr-parser-web/">Live</a>
 
-### Facebook Lead AI Extension
-AI scouting extension for Facebook leads with human-in-the-loop automation.
-- Monorepo with extension + backend
-- AI-powered lead scoring and filtering
-- [Repo](https://github.com/YosefHayim/facebook-lead-ai-extension)
+<a href="https://github.com/YosefHayim/udemy-clone-ron-ben-iitc"><b>Udemy Clone</b></a> — Full-stack e-learning platform with video streaming, PayPal, and Socket.IO. <a href="https://udemy-clone-ron-ben-iitc.onrender.com/">Live</a>
 
----
+<a href="https://github.com/YosefHayim/portfolio-web"><b>Portfolio Website</b></a> — Personal portfolio site. <a href="https://josephsabag.onrender.com">Live</a>
 
-### Get Barber
-On-demand barber services mobile app.
-- React Native + Expo with Supabase backend
-- Map-based barber discovery with real-time chat
-- Live tracking and earnings analytics for barbers
-- [Repo](https://github.com/YosefHayim/get-barber)
-
----
-
-### CDP-Agent
-Autonomous coding agent powered by Gemini via Chrome DevTools Protocol.
-- ReAct loop architecture (Thought, Action, Observation)
-- File operations, shell execution, session persistence
-- Configurable iterations and timeouts
-- [Repo](https://github.com/YosefHayim/CDP-Agent)
-
----
-
-### Vision Agent MAS
-Multi-agent system that transforms UI images into React applications.
-- Agentic pipeline powered by Google Gemini API
-- Vision-to-code conversion
-- [Repo](https://github.com/YosefHayim/vision-agent-mas)
-
----
-
-### Parallel AI Image Generation
-Trigger, compare, and analyze image results from multiple AI models side by side.
-- Multi-model comparison UI with Framer Motion animations
-- Gemini API integration
-- [Repo](https://github.com/YosefHayim/parallel-ai-image-generation)
-
----
-
-### Many Apps 30 Day Challenge
-Monorepo with 30 popular app replicas built with Expo and a shared NestJS backend.
-- Calculator app complete, 29 more planned
-- Shared backend with MongoDB and Redis
-- Detox E2E testing and Fly.io deployment
-- [Repo](https://github.com/YosefHayim/many-apps-30-day-challenge)
-
----
-
-### Chrome Extension API Reference MCP
-MCP server exposing Chrome Extensions API reference as queryable tools for AI agents.
-- 34 npm downloads/month
-- Full Chrome Extensions API coverage for AI consumption
-- [Repo](https://github.com/YosefHayim/chrome-extension-api-reference-mcp) · [npm](https://www.npmjs.com/package/chrome-extension-api-mcp)
-
----
-
-### Discord MCP Server
-MCP server for provisioning Discord servers from JSON blueprints.
-- 6 included server templates (gaming, dev community, etc.)
-- Create roles, channels, and categories from config
-- [Repo](https://github.com/YosefHayim/discord-mcp)
-
----
-
-### Instagram AI Thumbnail Replacer
-Chrome extension that auto-replaces Instagram thumbnails with AI-generated alternatives.
-- WXT + React with Convex backend
-- Framer Motion animations
-- [Repo](https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer)
-
----
-
-### Generalized Scraper
-AI-powered web scraper that accepts a URL + schema and returns structured JSON.
-- Schema-driven with Zod validation
-- Stagehand (BrowserBase) for intelligent scraping
-- OpenAI-powered data extraction
-- [Repo](https://github.com/YosefHayim/generalized-scraper)
-
----
-
-### Generate App Store Thumbnails
-Utility for generating App Store thumbnails.
-- Monorepo with pnpm workspaces
-- Docker support and GitHub Actions CI/CD
-- [Repo](https://github.com/YosefHayim/generate-appstore-thumbnails)
-
----
-
-### AI OCR Parser
-Web-based document scanner that extracts invoice data using AI.
-- OpenAI-powered OCR and data extraction
-- Deployed at [GitHub Pages](https://yosefhayim.github.io/ai-ocr-parser-web/)
-- [Repo](https://github.com/YosefHayim/ai-ocr-parser-web)
-
----
-
-### Udemy Clone
-Full-stack e-learning platform built as a bootcamp final project.
-- Course browsing, video streaming, shopping cart, and user auth
-- PayPal payment integration and Socket.IO real-time features
-- Deployed on [Render](https://udemy-clone-ron-ben-iitc.onrender.com/)
-- [Repo](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc)
-
----
-
-### Portfolio Website
-Personal portfolio site.
-- Deployed at [josephsabag.onrender.com](https://josephsabag.onrender.com)
-- [Repo](https://github.com/YosefHayim/portfolio-web)
-
----
-
-### Tim Trailers
-Movie database app with AI-powered character illustration system.
-- GPT-4o integration for AI mascot generation
-- TMDB API for movie data
-- 120+ hours of development
-- [Repo](https://github.com/YosefHayim/tim-trailers-vanilla-js) · [Live](https://iitc-b-frontend-vanilla-tim-trailers.onrender.com/)
+<a href="https://github.com/YosefHayim/tim-trailers-vanilla-js"><b>Tim Trailers</b></a> — Movie database app with GPT-4o character illustrations and TMDB API. <a href="https://iitc-b-frontend-vanilla-tim-trailers.onrender.com/">Live</a>
