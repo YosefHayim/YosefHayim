@@ -8,58 +8,56 @@
 
 ---
 
-## Projects
+## Public Repos
 
-<a href="https://github.com/YosefHayim/ebay-mcp"><b>eBay MCP Server</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — MCP server with 325 tools covering 100% of eBay Sell APIs. 26 stars, 18 forks, 648 npm downloads/month, 958+ tests. <a href="https://www.npmjs.com/package/ebay-mcp">npm</a>
+**[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** ★ 32 — MCP server with 325 tools covering 100% of eBay Sell APIs for AI assistants.
 
-<a href="https://github.com/YosefHayim/extension-ai-conversation-navigator"><b>AI Conversation Navigator</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Unified sidebar for ChatGPT, Claude, and Gemini conversations. <a href="https://chromewebstore.google.com/detail/ai-conversation-navigator/akooohgmmhkddbmoefhbkojalajkbdcg">Chrome Web Store</a>
+**[pr-prism](https://github.com/YosefHayim/pr-prism)** — Stateful PR review scraper for AI agent workflows that filters noise and caches seen comments.
 
-<a href="https://github.com/YosefHayim/import-pilot"><b>Import Pilot</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — CLI tool that auto-fixes missing imports across 8+ languages. 101 tests, 101 npm downloads/month. <a href="https://www.npmjs.com/package/import-pilot">npm</a>
+**[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** — Plug-and-play CLI that auto-discovers products, generates checkouts, and monitors for upstream API changes.
 
-<a href="https://github.com/YosefHayim/The-Context-Packer-for-AI"><b>The Context Packer for AI</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — AST-based code analyzer extracting function context for LLMs. 218+ tests, supports TS/JS/Python, multiple export formats.
+**[grimoire](https://github.com/YosefHayim/grimoire)** — Config-driven CLI wizard framework with back-navigation, conditional branching, and structured output.
 
-<a href="https://github.com/YosefHayim/discord-signal-ai-trader"><b>Discord Signal AI Trader</b></a> <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — AI trading engine parsing Discord signals and executing trades via Binance API with Redis and Drizzle ORM.
+**[import-pilot](https://github.com/YosefHayim/import-pilot)** — CLI that scans your project and auto-fixes missing imports to save AI agent tokens.
 
-<a href="https://github.com/YosefHayim/facebook-lead-ai-extension"><b>Facebook Lead AI Extension</b></a> <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — AI scouting extension for Facebook leads with human-in-the-loop automation.
+**[The-Context-Packer-for-AI](https://github.com/YosefHayim/The-Context-Packer-for-AI)** — AST-based tool that extracts function call-site context so LLMs never miss a reference.
 
-<a href="https://github.com/YosefHayim/get-barber"><b>Get Barber</b></a> <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — On-demand barber booking mobile app with React Native, Expo, Supabase, map discovery, and real-time chat.
+**[CDP-Agent](https://github.com/YosefHayim/CDP-Agent)** — Phantom CLI bridge giving Gemini autonomous access to your local codebase via Chrome DevTools Protocol.
 
-<a href="https://github.com/YosefHayim/CDP-Agent"><b>CDP-Agent</b></a> <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — Autonomous coding agent using Gemini via Chrome DevTools Protocol with ReAct loop architecture.
+**[discord-mcp](https://github.com/YosefHayim/discord-mcp)** — MCP server that provisions a full Discord server from a JSON blueprint in one command.
 
-<a href="https://github.com/YosefHayim/vision-agent-mas"><b>Vision Agent MAS</b></a> <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — Multi-agent system transforming UI images into React apps via Gemini API.
+**[chrome-extension-api-reference-mcp](https://github.com/YosefHayim/chrome-extension-api-reference-mcp)** — MCP server exposing the Chrome Extensions API reference to AI agents.
 
-<a href="https://github.com/YosefHayim/parallel-ai-image-generation"><b>Parallel AI Image Generation</b></a> <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — Compare and analyze image results from multiple AI models side by side.
+**[discord-signal-ai-trader](https://github.com/YosefHayim/discord-signal-ai-trader)** — AI trading engine that parses Discord signals and executes trades via Binance API.
 
-<a href="https://github.com/YosefHayim/chrome-extension-api-reference-mcp"><b>Chrome Extension API Reference MCP</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — MCP server exposing Chrome Extensions API for AI agents. 34 npm downloads/month. <a href="https://www.npmjs.com/package/chrome-extension-api-mcp">npm</a>
+**[vision-agent-mas](https://github.com/YosefHayim/vision-agent-mas)** — Multi-agent system that transforms UI screenshots into working React components via Gemini.
 
-<a href="https://github.com/YosefHayim/discord-mcp"><b>Discord MCP Server</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — MCP server for provisioning Discord servers from JSON blueprints with 6 templates.
+**[parallel-ai-image-generation](https://github.com/YosefHayim/parallel-ai-image-generation)** — Side-by-side comparison tool for image outputs across multiple AI generation models.
 
-<a href="https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer"><b>Instagram AI Thumbnail Replacer</b></a> <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — Chrome extension auto-replacing Instagram thumbnails with AI-generated alternatives.
+**[instagram-ai-auto-image-thumbnail-replacer](https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer)** — Chrome extension that replaces Instagram thumbnails with AI-generated alternatives.
 
-<a href="https://github.com/YosefHayim/ai-ocr-parser-web"><b>AI OCR Parser</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Web document scanner extracting invoice data via OpenAI. <a href="https://yosefhayim.github.io/ai-ocr-parser-web/">Live</a>
+**[get-barber](https://github.com/YosefHayim/get-barber)** — On-demand barber booking app with React Native, Expo, Supabase, and real-time chat.
 
-<a href="https://github.com/YosefHayim/udemy-clone-ron-ben-iitc"><b>Udemy Clone</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Full-stack e-learning platform with video streaming, PayPal, and Socket.IO. <a href="https://udemy-clone-ron-ben-iitc.onrender.com/">Live</a>
+**[Template](https://github.com/YosefHayim/Template)** — Opinionated project starter with CI/CD, release automation, and AI tooling preconfigured.
 
-<a href="https://github.com/YosefHayim/portfolio-web"><b>Portfolio Website</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Personal portfolio site. <a href="https://josephsabag.onrender.com">Live</a>
+**[ai-ocr-parser-web](https://github.com/YosefHayim/ai-ocr-parser-web)** — Web scanner that extracts structured invoice data from documents via OpenAI.
 
-<a href="https://github.com/YosefHayim/tim-trailers-vanilla-js"><b>Tim Trailers</b></a> <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Movie database app with GPT-4o character illustrations and TMDB API. <a href="https://iitc-b-frontend-vanilla-tim-trailers.onrender.com/">Live</a>
+**[portfolio-web](https://github.com/YosefHayim/portfolio-web)** — Personal portfolio website.
 
-<a href="https://askally.io"><b>Ask Ally</b></a> (Private) <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Omnichannel AI assistant with Telegram, Slack, and WhatsApp bots, live in production serving real users.
+**[tim-trailers-vanilla-js](https://github.com/YosefHayim/tim-trailers-vanilla-js)** — Movie database with GPT-4o character illustrations and TMDB API, built in vanilla JS.
 
-<b>AutoBay</b> (Private) <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — eBay dropshipping SaaS with 136+ API routes, Stripe billing, Playwright scraping, deployed on AWS.
+**[udemy-clone-ron-ben-iitc](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc)** — Full-stack e-learning platform with video streaming, PayPal, and Socket.IO.
 
-<b>Sorqa Extension</b> (Private) <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Automated prompt queuing for Sora, 233 users. <a href="https://chromewebstore.google.com/detail/sora-auto-queue-prompts/kbpbdckjechbjmnjagfkgcplmhdkkgph">Chrome Web Store</a>
+**[gh-commitmsg](https://github.com/YosefHayim/gh-commitmsg)** — GitHub CLI extension that generates Conventional Commit messages from staged diffs.
 
-<b>Prompt Queue Extension</b> (Private) <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — Automated prompt queuing for Gemini, 133 users. <a href="https://chromewebstore.google.com/detail/gemini-nano-flow/lidnnjbepijjbbphbdhcchgpckpcbgfm">Chrome Web Store</a>
+**[react-email](https://github.com/YosefHayim/react-email)** — React component library for building and previewing email templates.
 
-<b>CalCalculator</b> (Private) <img src="https://img.shields.io/badge/Production-00C853?style=flat" /> — iOS calorie calculator published on the Apple App Store with Fastlane CI/CD and widget extension.
+**[mcp-registry](https://github.com/YosefHayim/mcp-registry)** — Personal registry of MCP server configurations.
 
-<b>AI Google Calendar Assistant</b> (Private) <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — AI-powered calendar assistant with Next.js, Gemini AI, Telegram bot, and real-time Socket.io updates.
+**[projects-with-chatgpt](https://github.com/YosefHayim/projects-with-chatgpt)** — Archive of early projects built with ChatGPT before having a formal programming background.
 
-<b>QuickApply Extension</b> (Private) <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — One-click Chrome extension to auto-fill job applications with WXT, React, and Lemon Squeezy payments.
+**[iitc-bootcamp](https://github.com/YosefHayim/iitc-bootcamp)** — Full collection of projects and exercises from the IITC Full Stack & Automation bootcamp.
 
-<b>Many Apps 30 Day Challenge</b> (Private) <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — Monorepo of 30 app replicas with Expo and shared NestJS backend, MongoDB, and Redis.
+**[next-js-dashboard-course](https://github.com/YosefHayim/next-js-dashboard-course)** — Learning repo following the official Next.js App Router course.
 
-<b>Generalized Scraper</b> (Private) <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — AI web scraper accepting URL + schema, returning structured JSON via Stagehand and OpenAI.
-
-<b>Generate App Store Thumbnails</b> (Private) <img src="https://img.shields.io/badge/In_Dev-FF9800?style=flat" /> — Utility for generating App Store thumbnails with Docker and GitHub Actions CI/CD.
+**[learning](https://github.com/YosefHayim/learning)** — Personal archive of programming exercises organized by growth stage.
