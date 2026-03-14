@@ -8,7 +8,7 @@
 
 ---
 
-## Public Repos
+## Projects
 
 **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** ★ 32 — MCP server with 325 tools covering 100% of eBay Sell APIs for AI assistants.
 
@@ -36,8 +36,6 @@
 
 **[instagram-ai-auto-image-thumbnail-replacer](https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer)** — Chrome extension that replaces Instagram thumbnails with AI-generated alternatives.
 
-**[get-barber](https://github.com/YosefHayim/get-barber)** — On-demand barber booking app with React Native, Expo, Supabase, and real-time chat.
-
 **[Template](https://github.com/YosefHayim/Template)** — Opinionated project starter with CI/CD, release automation, and AI tooling preconfigured.
 
 **[ai-ocr-parser-web](https://github.com/YosefHayim/ai-ocr-parser-web)** — Web scanner that extracts structured invoice data from documents via OpenAI.
@@ -48,16 +46,4 @@
 
 **[udemy-clone-ron-ben-iitc](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc)** — Full-stack e-learning platform with video streaming, PayPal, and Socket.IO.
 
-**[gh-commitmsg](https://github.com/YosefHayim/gh-commitmsg)** — GitHub CLI extension that generates Conventional Commit messages from staged diffs.
-
-**[react-email](https://github.com/YosefHayim/react-email)** — React component library for building and previewing email templates.
-
-**[mcp-registry](https://github.com/YosefHayim/mcp-registry)** — Personal registry of MCP server configurations.
-
 **[projects-with-chatgpt](https://github.com/YosefHayim/projects-with-chatgpt)** — Archive of early projects built with ChatGPT before having a formal programming background.
-
-**[iitc-bootcamp](https://github.com/YosefHayim/iitc-bootcamp)** — Full collection of projects and exercises from the IITC Full Stack & Automation bootcamp.
-
-**[next-js-dashboard-course](https://github.com/YosefHayim/next-js-dashboard-course)** — Learning repo following the official Next.js App Router course.
-
-**[learning](https://github.com/YosefHayim/learning)** — Personal archive of programming exercises organized by growth stage.
