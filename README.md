@@ -10,40 +10,40 @@
 
 ## Projects
 
-**[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** ★ 32 — MCP server with 325 tools covering 100% of eBay Sell APIs for AI assistants.
+**[eBay MCP](https://github.com/YosefHayim/ebay-mcp)** ★ 32 — MCP server with 325 tools covering 100% of eBay Sell APIs for AI assistants.
 
-**[pr-prism](https://github.com/YosefHayim/pr-prism)** — Stateful PR review scraper for AI agent workflows that filters noise and caches seen comments.
+**[PR Prism](https://github.com/YosefHayim/pr-prism)** — Stateful PR review scraper for AI agent workflows that filters noise and caches seen comments.
 
-**[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** — Plug-and-play CLI that auto-discovers products, generates checkouts, and monitors for upstream API changes.
+**[Fresh Squeezy](https://github.com/YosefHayim/fresh-squeezy)** — Plug-and-play CLI that auto-discovers products, generates checkouts, and monitors for upstream API changes.
 
-**[grimoire](https://github.com/YosefHayim/grimoire)** — Config-driven CLI wizard framework with back-navigation, conditional branching, and structured output.
+**[Grimoire](https://github.com/YosefHayim/grimoire)** — Config-driven CLI wizard framework with back-navigation, conditional branching, and structured output.
 
-**[import-pilot](https://github.com/YosefHayim/import-pilot)** — CLI that scans your project and auto-fixes missing imports to save AI agent tokens.
+**[Import Pilot](https://github.com/YosefHayim/import-pilot)** — CLI that scans your project and auto-fixes missing imports to save AI agent tokens.
 
-**[The-Context-Packer-for-AI](https://github.com/YosefHayim/The-Context-Packer-for-AI)** — AST-based tool that extracts function call-site context so LLMs never miss a reference.
+**[The Context Packer for AI](https://github.com/YosefHayim/The-Context-Packer-for-AI)** — AST-based tool that extracts function call-site context so LLMs never miss a reference.
 
-**[CDP-Agent](https://github.com/YosefHayim/CDP-Agent)** — Phantom CLI bridge giving Gemini autonomous access to your local codebase via Chrome DevTools Protocol.
+**[CDP Agent](https://github.com/YosefHayim/CDP-Agent)** — Phantom CLI bridge giving Gemini autonomous access to your local codebase via Chrome DevTools Protocol.
 
-**[discord-mcp](https://github.com/YosefHayim/discord-mcp)** — MCP server that provisions a full Discord server from a JSON blueprint in one command.
+**[Discord MCP](https://github.com/YosefHayim/discord-mcp)** — MCP server that provisions a full Discord server from a JSON blueprint in one command.
 
-**[chrome-extension-api-reference-mcp](https://github.com/YosefHayim/chrome-extension-api-reference-mcp)** — MCP server exposing the Chrome Extensions API reference to AI agents.
+**[Chrome Extension API Reference MCP](https://github.com/YosefHayim/chrome-extension-api-reference-mcp)** — MCP server exposing the Chrome Extensions API reference to AI agents.
 
-**[discord-signal-ai-trader](https://github.com/YosefHayim/discord-signal-ai-trader)** — AI trading engine that parses Discord signals and executes trades via Binance API.
+**[Discord Signal AI Trader](https://github.com/YosefHayim/discord-signal-ai-trader)** — AI trading engine that parses Discord signals and executes trades via Binance API.
 
-**[vision-agent-mas](https://github.com/YosefHayim/vision-agent-mas)** — Multi-agent system that transforms UI screenshots into working React components via Gemini.
+**[Vision Agent MAS](https://github.com/YosefHayim/vision-agent-mas)** — Multi-agent system that transforms UI screenshots into working React components via Gemini.
 
-**[parallel-ai-image-generation](https://github.com/YosefHayim/parallel-ai-image-generation)** — Side-by-side comparison tool for image outputs across multiple AI generation models.
+**[Parallel AI Image Generation](https://github.com/YosefHayim/parallel-ai-image-generation)** — Side-by-side comparison tool for image outputs across multiple AI generation models.
 
-**[instagram-ai-auto-image-thumbnail-replacer](https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer)** — Chrome extension that replaces Instagram thumbnails with AI-generated alternatives.
+**[Instagram AI Thumbnail Replacer](https://github.com/YosefHayim/instagram-ai-auto-image-thumbnail-replacer)** — Chrome extension that replaces Instagram thumbnails with AI-generated alternatives.
 
 **[Template](https://github.com/YosefHayim/Template)** — Opinionated project starter with CI/CD, release automation, and AI tooling preconfigured.
 
-**[ai-ocr-parser-web](https://github.com/YosefHayim/ai-ocr-parser-web)** — Web scanner that extracts structured invoice data from documents via OpenAI.
+**[AI OCR Parser](https://github.com/YosefHayim/ai-ocr-parser-web)** — Web scanner that extracts structured invoice data from documents via OpenAI.
 
-**[portfolio-web](https://github.com/YosefHayim/portfolio-web)** — Personal portfolio website.
+**[Portfolio Web](https://github.com/YosefHayim/portfolio-web)** — Personal portfolio website.
 
-**[tim-trailers-vanilla-js](https://github.com/YosefHayim/tim-trailers-vanilla-js)** — Movie database with GPT-4o character illustrations and TMDB API, built in vanilla JS.
+**[Tim Trailers](https://github.com/YosefHayim/tim-trailers-vanilla-js)** — Movie database with GPT-4o character illustrations and TMDB API, built in vanilla JS.
 
-**[udemy-clone-ron-ben-iitc](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc)** — Full-stack e-learning platform with video streaming, PayPal, and Socket.IO.
+**[Udemy Clone](https://github.com/YosefHayim/udemy-clone-ron-ben-iitc)** — Full-stack e-learning platform with video streaming, PayPal, and Socket.IO.
 
-**[projects-with-chatgpt](https://github.com/YosefHayim/projects-with-chatgpt)** — Archive of early projects built with ChatGPT before having a formal programming background.
+**[Projects with ChatGPT](https://github.com/YosefHayim/projects-with-chatgpt)** — Archive of early projects built with ChatGPT before having a formal programming background.
