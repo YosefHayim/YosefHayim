@@ -1,14 +1,10 @@
-![Hi Yosef Hayim](https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=Hi%20I%20am%20Yosef%20Hayim%20Sabag&fontAlign=50&fontSize=70&textBg=false&section=header)
+# Yosef Hayim Sabag
 
-### Connect with me
+Full-stack developer from Israel. I build open-source tools for AI agent workflows — MCP servers, CLI utilities, and developer tooling in TypeScript/Node.js.
 
-<a href="https://www.linkedin.com/in/yosef-hayim-sabag" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Yosef--Hayim--Sabag-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-<a href="https://josephsabag.onrender.com" target="_blank"><img src="https://img.shields.io/badge/Portfolio-JosephSabag.onrender.com-000000?style=flat&logo=windowsterminal&logoColor=white" /></a>
-<img src="https://img.shields.io/badge/Gmail-YosefiSabag@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" />
+[LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [Portfolio](https://josephsabag.onrender.com) · [YosefiSabag@gmail.com](mailto:YosefiSabag@gmail.com)
 
 ---
-
-## Projects
 
 <!-- PROJECTS_START -->
 
