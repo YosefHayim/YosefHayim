@@ -1,0 +1,68 @@
+name: Update project descriptions
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate projects section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+
+          REPOS=(
+            "ebay-mcp|eBay MCP"
+            "pr-prism|PR Prism"
+            "fresh-squeezy|Fresh Squeezy"
+            "grimoire|Grimoire"
+            "import-pilot|Import Pilot"
+            "The-Context-Packer-for-AI|The Context Packer for AI"
+            "CDP-Agent|CDP Agent"
+            "discord-mcp|Discord MCP"
+            "chrome-extension-api-reference-mcp|Chrome Extension API Reference MCP"
+            "parallel-ai-image-generation|Parallel AI Image Generation"
+          )
+
+          SECTION=""
+          for entry in "${REPOS[@]}"; do
+            SLUG="${entry%%|*}"
+            NAME="${entry##*|}"
+            DESC=$(gh api repos/YosefHayim/$SLUG --jq '.description // ""')
+            BADGE="https://img.shields.io/github/stars/YosefHayim/${SLUG}?style=flat-square&label=★&labelColor=f5c518&color=333"
+            SECTION+="**[${NAME}](https://github.com/YosefHayim/${SLUG})** ![stars](${BADGE}) — ${DESC}\n\n"
+          done
+
+          # Replace content between markers (inclusive)
+          python3 - <<PYEOF
+          import re
+
+          readme = open("README.md").read()
+          new_block = "<!-- PROJECTS_START -->\n" + "$SECTION" + "<!-- PROJECTS_END -->"
+          updated = re.sub(
+              r"<!-- PROJECTS_START -->.*?<!-- PROJECTS_END -->",
+              new_block,
+              readme,
+              flags=re.DOTALL,
+          )
+          open("README.md", "w").write(updated)
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (
+            git add README.md &&
+            git commit -m "chore: sync project descriptions from GitHub API [skip ci]" &&
+            git push
+          )

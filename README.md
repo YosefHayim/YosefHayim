@@ -10,22 +10,26 @@
 
 ## Projects
 
-**[eBay MCP](https://github.com/YosefHayim/ebay-mcp)** ![stars](https://img.shields.io/github/stars/YosefHayim/ebay-mcp?style=flat&label=%E2%98%85) — MCP server with 325 tools covering 100% of eBay Sell APIs for AI assistants.
+<!-- PROJECTS_START -->
 
-**[PR Prism](https://github.com/YosefHayim/pr-prism)** ![stars](https://img.shields.io/github/stars/YosefHayim/pr-prism?style=flat&label=%E2%98%85) — Stateful PR review scraper for AI agent workflows that filters noise and caches seen comments.
+**[eBay MCP](https://github.com/YosefHayim/ebay-mcp)** ![stars](https://img.shields.io/github/stars/YosefHayim/ebay-mcp?style=flat-square&label=★&labelColor=f5c518&color=333) — MCP server with 325 tools covering 100% of eBay Sell APIs for AI assistants.
 
-**[Fresh Squeezy](https://github.com/YosefHayim/fresh-squeezy)** ![stars](https://img.shields.io/github/stars/YosefHayim/fresh-squeezy?style=flat&label=%E2%98%85) — Plug-and-play CLI that auto-discovers products, generates checkouts, and monitors for upstream API changes.
+**[PR Prism](https://github.com/YosefHayim/pr-prism)** ![stars](https://img.shields.io/github/stars/YosefHayim/pr-prism?style=flat-square&label=★&labelColor=f5c518&color=333) — Stateful PR review scraper for AI agent workflows that filters noise and caches seen comments.
 
-**[Grimoire](https://github.com/YosefHayim/grimoire)** ![stars](https://img.shields.io/github/stars/YosefHayim/grimoire?style=flat&label=%E2%98%85) — Config-driven CLI wizard framework with back-navigation, conditional branching, and structured output.
+**[Fresh Squeezy](https://github.com/YosefHayim/fresh-squeezy)** ![stars](https://img.shields.io/github/stars/YosefHayim/fresh-squeezy?style=flat-square&label=★&labelColor=f5c518&color=333) — Plug-and-play CLI that auto-discovers products, generates checkouts, and monitors for upstream API changes.
 
-**[Import Pilot](https://github.com/YosefHayim/import-pilot)** ![stars](https://img.shields.io/github/stars/YosefHayim/import-pilot?style=flat&label=%E2%98%85) — CLI that scans your project and auto-fixes missing imports to save AI agent tokens.
+**[Grimoire](https://github.com/YosefHayim/grimoire)** ![stars](https://img.shields.io/github/stars/YosefHayim/grimoire?style=flat-square&label=★&labelColor=f5c518&color=333) — Config-driven CLI wizard framework with back-navigation, conditional branching, and structured output.
 
-**[The Context Packer for AI](https://github.com/YosefHayim/The-Context-Packer-for-AI)** ![stars](https://img.shields.io/github/stars/YosefHayim/The-Context-Packer-for-AI?style=flat&label=%E2%98%85) — AST-based tool that extracts function call-site context so LLMs never miss a reference.
+**[Import Pilot](https://github.com/YosefHayim/import-pilot)** ![stars](https://img.shields.io/github/stars/YosefHayim/import-pilot?style=flat-square&label=★&labelColor=f5c518&color=333) — CLI that scans your project and auto-fixes missing imports to save AI agent tokens.
 
-**[CDP Agent](https://github.com/YosefHayim/CDP-Agent)** ![stars](https://img.shields.io/github/stars/YosefHayim/CDP-Agent?style=flat&label=%E2%98%85) — Phantom CLI bridge giving Gemini autonomous access to your local codebase via Chrome DevTools Protocol.
+**[The Context Packer for AI](https://github.com/YosefHayim/The-Context-Packer-for-AI)** ![stars](https://img.shields.io/github/stars/YosefHayim/The-Context-Packer-for-AI?style=flat-square&label=★&labelColor=f5c518&color=333) — AST-based tool that extracts function call-site context so LLMs never miss a reference.
 
-**[Discord MCP](https://github.com/YosefHayim/discord-mcp)** ![stars](https://img.shields.io/github/stars/YosefHayim/discord-mcp?style=flat&label=%E2%98%85) — MCP server that provisions a full Discord server from a JSON blueprint in one command.
+**[CDP Agent](https://github.com/YosefHayim/CDP-Agent)** ![stars](https://img.shields.io/github/stars/YosefHayim/CDP-Agent?style=flat-square&label=★&labelColor=f5c518&color=333) — Phantom CLI bridge giving Gemini autonomous access to your local codebase via Chrome DevTools Protocol.
 
-**[Chrome Extension API Reference MCP](https://github.com/YosefHayim/chrome-extension-api-reference-mcp)** ![stars](https://img.shields.io/github/stars/YosefHayim/chrome-extension-api-reference-mcp?style=flat&label=%E2%98%85) — MCP server exposing the Chrome Extensions API reference to AI agents.
+**[Discord MCP](https://github.com/YosefHayim/discord-mcp)** ![stars](https://img.shields.io/github/stars/YosefHayim/discord-mcp?style=flat-square&label=★&labelColor=f5c518&color=333) — MCP server that provisions a full Discord server from a JSON blueprint in one command.
 
-**[Parallel AI Image Generation](https://github.com/YosefHayim/parallel-ai-image-generation)** ![stars](https://img.shields.io/github/stars/YosefHayim/parallel-ai-image-generation?style=flat&label=%E2%98%85) — Side-by-side comparison tool for image outputs across multiple AI generation models.
+**[Chrome Extension API Reference MCP](https://github.com/YosefHayim/chrome-extension-api-reference-mcp)** ![stars](https://img.shields.io/github/stars/YosefHayim/chrome-extension-api-reference-mcp?style=flat-square&label=★&labelColor=f5c518&color=333) — MCP server exposing the Chrome Extensions API reference to AI agents.
+
+**[Parallel AI Image Generation](https://github.com/YosefHayim/parallel-ai-image-generation)** ![stars](https://img.shields.io/github/stars/YosefHayim/parallel-ai-image-generation?style=flat-square&label=★&labelColor=f5c518&color=333) — Side-by-side comparison tool for image outputs across multiple AI generation models.
+
+<!-- PROJECTS_END -->
