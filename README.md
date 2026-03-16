@@ -1,6 +1,6 @@
 # Yosef Hayim Sabag
 
-Full-stack developer from Israel. I build open-source tools for AI agent workflows — MCP servers, CLI utilities, and developer tooling in TypeScript/Node.js.
+Full-stack developer from Israel. I build open-source tools for AI agent workflows — MCP servers, CLI utilities, and developer tooling mostly in TypeScript.
 
 [LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [Portfolio](https://josephsabag.onrender.com) · [YosefiSabag@gmail.com](mailto:YosefiSabag@gmail.com)
 
