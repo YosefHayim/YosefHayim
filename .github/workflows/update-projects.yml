@@ -33,21 +33,22 @@ jobs:
             "parallel-ai-image-generation|Parallel AI Image Generation"
           )
 
-          SECTION=""
+          ROWS=""
           for entry in "${REPOS[@]}"; do
             SLUG="${entry%%|*}"
             NAME="${entry##*|}"
             DESC=$(gh api repos/YosefHayim/$SLUG --jq '.description // ""')
             BADGE="https://img.shields.io/github/stars/YosefHayim/${SLUG}?style=flat-square&label=★&labelColor=f5c518&color=333"
-            SECTION+="**[${NAME}](https://github.com/YosefHayim/${SLUG})** ![stars](${BADGE}) — ${DESC}\n\n"
+            ROWS+="| [${NAME}](https://github.com/YosefHayim/${SLUG}) | ${DESC} | ![stars](${BADGE}) |\n"
           done
 
-          # Replace content between markers (inclusive)
+          TABLE="| Project | Description | Stars |\n|---------|-------------|:-----:|\n${ROWS}"
+
           python3 - <<PYEOF
           import re
 
           readme = open("README.md").read()
-          new_block = "<!-- PROJECTS_START -->\n" + "$SECTION" + "<!-- PROJECTS_END -->"
+          new_block = "<!-- PROJECTS_START -->\n" + "$TABLE" + "<!-- PROJECTS_END -->"
           updated = re.sub(
               r"<!-- PROJECTS_START -->.*?<!-- PROJECTS_END -->",
               new_block,
