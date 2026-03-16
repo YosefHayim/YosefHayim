@@ -1,0 +1,26 @@
+# Yosef Hayim Sabag
+
+> Full-stack developer from Israel specializing in open-source tooling for AI agent workflows — MCP servers, CLI utilities, and developer infrastructure in TypeScript/Node.js.
+
+## Projects
+
+- [eBay MCP](https://github.com/YosefHayim/ebay-mcp): MCP server exposing 325 tools covering 100% of eBay Sell APIs for AI coding assistants
+- [PR Prism](https://github.com/YosefHayim/pr-prism): Stateful GitHub PR review scraper for AI agent loops — filters noise, caches seen comments, delivers signal
+- [Fresh Squeezy](https://github.com/YosefHayim/fresh-squeezy): Plug-and-play Lemon Squeezy billing layer — checkout, webhooks, subscriptions, and license keys in one function call
+- [Grimoire](https://github.com/YosefHayim/grimoire): Config-driven CLI wizard framework with YAML-defined steps, branching, validation, and structured output
+- [Import Pilot](https://github.com/YosefHayim/import-pilot): Zero-config CLI that scans projects and auto-inserts missing imports across TypeScript, JavaScript, Vue, Python, and more
+- [The Context Packer for AI](https://github.com/YosefHayim/The-Context-Packer-for-AI): AST-based tool that extracts function call-site context so LLMs see every reference before suggesting changes
+- [CDP Agent](https://github.com/YosefHayim/CDP-Agent): CLI bridge giving Gemini autonomous access to a local codebase via Chrome DevTools Protocol
+- [Discord MCP](https://github.com/YosefHayim/discord-mcp): MCP server that provisions a full Discord server from a JSON blueprint in one command
+- [Chrome Extension API Reference MCP](https://github.com/YosefHayim/chrome-extension-api-reference-mcp): MCP server exposing the Chrome Extensions API reference to AI coding agents
+- [Parallel AI Image Generation](https://github.com/YosefHayim/parallel-ai-image-generation): Side-by-side comparison tool for image outputs across multiple AI generation models
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag)
+- [Portfolio](https://josephsabag.onrender.com)
+- [Email](mailto:YosefiSabag@gmail.com)
+
+## Optional
+
+- [GitHub Profile](https://github.com/YosefHayim)
