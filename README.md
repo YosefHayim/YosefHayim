@@ -27,19 +27,11 @@
 
 ---
 
-### 🛠️ Tech Stack & Tools
-
-<p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-</p>
-
----
-
-### 🚀 Featured Projects
+### 🚀 Projects
 
 | 📦 Project | 📝 Description | ⭐ Stars |
 | :--- | :--- | :---: |
-| **[eBay MCP](https://github.com/YosefHayim/ebay-mcp)** | Open-source Model Context Protocol server featuring 325 tools that cover 100% of eBay Sell APIs for AI assistants. | [![stars](https://img.shields.io/github/stars/YosefHayim/ebay-mcp?style=flat-square&labelColor=333&color=f5c518)](https://github.com/YosefHayim/ebay-mcp) |
+| **[eBay MCP](https://github.com/YosefHayim/ebay-mcp)** | Open-source Model Context Protocol server featuring 325 tools that cover 100% of eBay Sell APIs for AI assistants. | [![](https://img.shields.io/github/stars/YosefHayim/ebay-mcp?style=flat-square&labelColor=333&color=f5c518)](https://github.com/YosefHayim/ebay-mcp) |
 
 ---
 
