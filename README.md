@@ -29,9 +29,34 @@
 
 ### 🚀 Projects
 
-| 📦 Project | 📝 Description | ⭐ Stars |
-| :--- | :--- | :---: |
-| **[eBay MCP](https://github.com/YosefHayim/ebay-mcp)** | Open-source Model Context Protocol server featuring 325 tools that cover 100% of eBay Sell APIs for AI assistants. | [![](https://img.shields.io/github/stars/YosefHayim/ebay-mcp?style=flat-square&labelColor=333&color=f5c518)](https://github.com/YosefHayim/ebay-mcp) |
+<!-- PROJECTS:SUMMARY:START -->
+Public repos: **6** · Private repos: **3** · Public stars: **49** · Private stars: **0** · Last sync: **2026-04-24**
+<!-- PROJECTS:SUMMARY:END -->
+
+#### Public Projects
+
+<!-- PROJECTS:PUBLIC:START -->
+| Repository | Description | Stars | Language | Updated |
+| :--- | :--- | ---: | :--- | :--- |
+| **[universal-agent-toolkit](https://github.com/YosefHayim/universal-agent-toolkit)** | Personal hooks,rules,agents,workflows and more for production-hardened plugins for agent providers. | 0 | TypeScript | 2026-04-24 |
+| **[portfolio](https://github.com/YosefHayim/portfolio)** | Portfolio that presenting all the relvant information about my software engineering career. | 0 | TypeScript | 2026-04-23 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 49 | TypeScript | 2026-04-23 |
+| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 | HTML | 2026-04-23 |
+| **[mcp-registry](https://github.com/YosefHayim/mcp-registry)** | MCP Registry | 0 | Go | 2026-04-23 |
+| **[Template](https://github.com/YosefHayim/Template)** | Typescript template | 0 | Python | 2026-04-10 |
+<!-- PROJECTS:PUBLIC:END -->
+
+#### Private Projects
+
+<!-- PROJECTS:PRIVATE:START -->
+| Repository | Description | Stars | Language | Updated |
+| :--- | :--- | ---: | :--- | :--- |
+| `genshot` | Generate professional thumbnails for appstore/chrome store/google play store and marketing screenshots with AI prompts | 0 | TypeScript | 2026-04-23 |
+| `autobay-fe-be` | — | 0 | HTML | 2026-04-23 |
+| `extensions` | Multiple extensions monorepo for side projects | 0 | TypeScript | 2026-03-30 |
+<!-- PROJECTS:PRIVATE:END -->
+
+<sub>The tables above are generated automatically from GitHub metadata each day. Private rows require a personal token in `PROFILE_README_TOKEN`; otherwise only public repositories will be available to the workflow.</sub>
 
 ---
 

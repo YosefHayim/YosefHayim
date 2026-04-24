@@ -1,9 +1,16 @@
-name: Update project descriptions
+name: Sync Project Tables
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - scripts/update-readme-projects.js
+      - .github/workflows/update-projects.yml
 
 jobs:
   update:
@@ -13,50 +20,23 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Regenerate projects section
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate project tables
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -e
-
-          REPOS=(
-            "ebay-mcp|eBay MCP"
-            "pr-prism|PR Prism"
-            "fresh-squeezy|Fresh Squeezy"
-            "grimoire|Grimoire"
-            "import-pilot|Import Pilot"
-            "The-Context-Packer-for-AI|The Context Packer for AI"
-            "CDP-Agent|CDP Agent"
-            "discord-mcp|Discord MCP"
-            "chrome-extension-api-reference-mcp|Chrome Extension API Reference MCP"
-            "parallel-ai-image-generation|Parallel AI Image Generation"
-          )
-
-          ROWS=""
-          for entry in "${REPOS[@]}"; do
-            SLUG="${entry%%|*}"
-            NAME="${entry##*|}"
-            DESC=$(gh api repos/YosefHayim/$SLUG --jq '.description // ""')
-            BADGE="https://img.shields.io/github/stars/YosefHayim/${SLUG}?style=flat-square&label=★&labelColor=f5c518&color=333"
-            ROWS+="| [${NAME}](https://github.com/YosefHayim/${SLUG}) | ${DESC} | ![stars](${BADGE}) |\n"
-          done
-
-          TABLE="| Project | Description | Stars |\n|---------|-------------|:-----:|\n${ROWS}"
-
-          python3 - <<PYEOF
-          import re
-
-          readme = open("README.md").read()
-          new_block = "<!-- PROJECTS_START -->\n" + "$TABLE" + "<!-- PROJECTS_END -->"
-          updated = re.sub(
-              r"<!-- PROJECTS_START -->.*?<!-- PROJECTS_END -->",
-              new_block,
-              readme,
-              flags=re.DOTALL,
-          )
-          open("README.md", "w").write(updated)
-          PYEOF
+          GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN != '' && secrets.PROFILE_README_TOKEN || github.token }}
+          GITHUB_OWNER: YosefHayim
+          README_REPO: YosefHayim
+          INCLUDE_PRIVATE_DETAILS: "true"
+          MAX_PUBLIC_REPOS: "12"
+          MAX_PRIVATE_REPOS: "12"
+        run: node scripts/update-readme-projects.js
 
       - name: Commit if changed
         run: |
@@ -64,6 +44,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git diff --quiet README.md || (
             git add README.md &&
-            git commit -m "chore: sync project descriptions from GitHub API [skip ci]" &&
+            git commit -m "chore: sync project tables [skip ci]" &&
             git push
           )
