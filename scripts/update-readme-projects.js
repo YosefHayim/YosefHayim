@@ -8,10 +8,7 @@ const ROOT = path.resolve(__dirname, "..");
 const README_PATH = path.join(ROOT, "README.md");
 const OWNER = process.env.GITHUB_OWNER || "YosefHayim";
 const README_REPO = process.env.README_REPO || OWNER;
-const INCLUDE_PRIVATE_DETAILS =
-  String(process.env.INCLUDE_PRIVATE_DETAILS || "true").toLowerCase() === "true";
 const MAX_PUBLIC_REPOS = Number(process.env.MAX_PUBLIC_REPOS || "12");
-const MAX_PRIVATE_REPOS = Number(process.env.MAX_PRIVATE_REPOS || "12");
 
 function runGh(args) {
   return execFileSync("gh", args, {
@@ -42,23 +39,15 @@ function sanitizeCell(value) {
   return text || "—";
 }
 
-function repoTitle(repo, isPrivate) {
-  if (isPrivate) {
-    return `\`${sanitizeCell(repo.name)}\``;
-  }
-
+function repoTitle(repo) {
   return `**[${sanitizeCell(repo.name)}](${repo.html_url})**`;
 }
 
-function repoDescription(repo, isPrivate) {
-  if (isPrivate && !INCLUDE_PRIVATE_DETAILS) {
-    return "Private repository metadata intentionally hidden.";
-  }
-
+function repoDescription(repo) {
   return sanitizeCell(repo.description);
 }
 
-function renderTable(repos, { isPrivate, limit }) {
+function renderPublicTable(repos, { limit }) {
   const selected = repos.slice(0, limit);
   const header = [
     "| Repository | Description | Stars |",
@@ -66,16 +55,13 @@ function renderTable(repos, { isPrivate, limit }) {
   ];
 
   if (selected.length === 0) {
-    const emptyMessage = isPrivate
-      ? "No private repositories were returned for this token."
-      : "No public repositories found.";
-    return [...header, `| — | ${emptyMessage} | — |`].join("\n");
+    return [...header, "| — | No public repositories found. | — |"].join("\n");
   }
 
   const rows = selected.map((repo) => {
     return [
-      repoTitle(repo, isPrivate),
-      repoDescription(repo, isPrivate),
+      repoTitle(repo),
+      repoDescription(repo),
       sanitizeCell(repo.stargazers_count),
     ];
   });
@@ -96,6 +82,10 @@ function buildStatsLine(publicRepos, privateRepos) {
     `Private stars: **${privateStars}**`,
     `Last sync: **${new Date().toISOString().slice(0, 10)}**`,
   ].join(" · ");
+}
+
+function buildPrivateSummary(privateRepos) {
+  return `Private repositories: **${privateRepos.length}**`;
 }
 
 function replaceSection(readme, startMarker, endMarker, content) {
@@ -123,13 +113,13 @@ function main() {
     readme,
     "<!-- PROJECTS:PUBLIC:START -->",
     "<!-- PROJECTS:PUBLIC:END -->",
-    renderTable(publicRepos, { isPrivate: false, limit: MAX_PUBLIC_REPOS }),
+    renderPublicTable(publicRepos, { limit: MAX_PUBLIC_REPOS }),
   );
   readme = replaceSection(
     readme,
     "<!-- PROJECTS:PRIVATE:START -->",
     "<!-- PROJECTS:PRIVATE:END -->",
-    renderTable(privateRepos, { isPrivate: true, limit: MAX_PRIVATE_REPOS }),
+    buildPrivateSummary(privateRepos),
   );
 
   fs.writeFileSync(README_PATH, readme);

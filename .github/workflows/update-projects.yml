@@ -33,9 +33,7 @@ jobs:
           GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN != '' && secrets.PROFILE_README_TOKEN || github.token }}
           GITHUB_OWNER: YosefHayim
           README_REPO: YosefHayim
-          INCLUDE_PRIVATE_DETAILS: "true"
           MAX_PUBLIC_REPOS: "12"
-          MAX_PRIVATE_REPOS: "12"
         run: node scripts/update-readme-projects.js
 
       - name: Commit if changed

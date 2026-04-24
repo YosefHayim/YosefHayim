@@ -50,14 +50,10 @@ Public repos: **7** · Private repos: **3** · Public stars: **49** · Private s
 #### Private Projects
 
 <!-- PROJECTS:PRIVATE:START -->
-| Repository | Description | Stars |
-| :--- | :--- | ---: |
-| `genshot` | Generate professional thumbnails for appstore/chrome store/google play store and marketing screenshots with AI prompts | 0 |
-| `autobay-fe-be` | — | 0 |
-| `extensions` | Multiple extensions monorepo for side projects | 0 |
+Private repositories: **3**
 <!-- PROJECTS:PRIVATE:END -->
 
-<sub>The tables above are generated automatically from GitHub metadata each day. Private rows require a personal token in `PROFILE_README_TOKEN`; otherwise only public repositories will be available to the workflow.</sub>
+<sub>The sections above are generated automatically from GitHub metadata each day. Private repository names and descriptions are intentionally hidden.</sub>
 
 ---
 
