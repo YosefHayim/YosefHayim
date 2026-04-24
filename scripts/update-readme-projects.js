@@ -42,11 +42,6 @@ function sanitizeCell(value) {
   return text || "—";
 }
 
-function formatDate(value) {
-  if (!value) return "—";
-  return new Date(value).toISOString().slice(0, 10);
-}
-
 function repoTitle(repo, isPrivate) {
   if (isPrivate) {
     return `\`${sanitizeCell(repo.name)}\``;
@@ -66,15 +61,15 @@ function repoDescription(repo, isPrivate) {
 function renderTable(repos, { isPrivate, limit }) {
   const selected = repos.slice(0, limit);
   const header = [
-    "| Repository | Description | Stars | Language | Updated |",
-    "| :--- | :--- | ---: | :--- | :--- |",
+    "| Repository | Description | Stars |",
+    "| :--- | :--- | ---: |",
   ];
 
   if (selected.length === 0) {
     const emptyMessage = isPrivate
       ? "No private repositories were returned for this token."
       : "No public repositories found.";
-    return [...header, `| — | ${emptyMessage} | — | — | — |`].join("\n");
+    return [...header, `| — | ${emptyMessage} | — |`].join("\n");
   }
 
   const rows = selected.map((repo) => {
@@ -82,8 +77,6 @@ function renderTable(repos, { isPrivate, limit }) {
       repoTitle(repo, isPrivate),
       repoDescription(repo, isPrivate),
       sanitizeCell(repo.stargazers_count),
-      sanitizeCell(repo.language),
-      formatDate(repo.updated_at),
     ];
   });
 

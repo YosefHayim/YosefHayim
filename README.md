@@ -30,30 +30,31 @@
 ### 🚀 Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **6** · Private repos: **3** · Public stars: **49** · Private stars: **0** · Last sync: **2026-04-24**
+Public repos: **7** · Private repos: **3** · Public stars: **49** · Private stars: **0** · Last sync: **2026-04-24**
 <!-- PROJECTS:SUMMARY:END -->
 
 #### Public Projects
 
 <!-- PROJECTS:PUBLIC:START -->
-| Repository | Description | Stars | Language | Updated |
-| :--- | :--- | ---: | :--- | :--- |
-| **[universal-agent-toolkit](https://github.com/YosefHayim/universal-agent-toolkit)** | Personal hooks,rules,agents,workflows and more for production-hardened plugins for agent providers. | 0 | TypeScript | 2026-04-24 |
-| **[portfolio](https://github.com/YosefHayim/portfolio)** | Portfolio that presenting all the relvant information about my software engineering career. | 0 | TypeScript | 2026-04-23 |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 49 | TypeScript | 2026-04-23 |
-| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 | HTML | 2026-04-23 |
-| **[mcp-registry](https://github.com/YosefHayim/mcp-registry)** | MCP Registry | 0 | Go | 2026-04-23 |
-| **[Template](https://github.com/YosefHayim/Template)** | Typescript template | 0 | Python | 2026-04-10 |
+| Repository | Description | Stars |
+| :--- | :--- | ---: |
+| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Validator-first Lemon Squeezy setup doctor. Library + CLI that verifies your integration before it ships — catches mode mismatch, unpublished products, missing webhook events, and platform changelog drift the official SDK doesn't track yet. | 0 |
+| **[universal-agent-toolkit](https://github.com/YosefHayim/universal-agent-toolkit)** | Personal hooks,rules,agents,workflows and more for production-hardened plugins for agent providers. | 0 |
+| **[portfolio](https://github.com/YosefHayim/portfolio)** | Portfolio that presenting all the relvant information about my software engineering career. | 0 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 49 |
+| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
+| **[mcp-registry](https://github.com/YosefHayim/mcp-registry)** | MCP Registry | 0 |
+| **[Template](https://github.com/YosefHayim/Template)** | Typescript template | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
 #### Private Projects
 
 <!-- PROJECTS:PRIVATE:START -->
-| Repository | Description | Stars | Language | Updated |
-| :--- | :--- | ---: | :--- | :--- |
-| `genshot` | Generate professional thumbnails for appstore/chrome store/google play store and marketing screenshots with AI prompts | 0 | TypeScript | 2026-04-23 |
-| `autobay-fe-be` | — | 0 | HTML | 2026-04-23 |
-| `extensions` | Multiple extensions monorepo for side projects | 0 | TypeScript | 2026-03-30 |
+| Repository | Description | Stars |
+| :--- | :--- | ---: |
+| `genshot` | Generate professional thumbnails for appstore/chrome store/google play store and marketing screenshots with AI prompts | 0 |
+| `autobay-fe-be` | — | 0 |
+| `extensions` | Multiple extensions monorepo for side projects | 0 |
 <!-- PROJECTS:PRIVATE:END -->
 
 <sub>The tables above are generated automatically from GitHub metadata each day. Private rows require a personal token in `PROFILE_README_TOKEN`; otherwise only public repositories will be available to the workflow.</sub>
