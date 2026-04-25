@@ -48,7 +48,16 @@ function repoDescription(repo) {
 }
 
 function renderPublicTable(repos, { limit }) {
-  const selected = repos.slice(0, limit);
+  const selected = [...repos]
+    .sort((a, b) => {
+      const starDelta = (b.stargazers_count || 0) - (a.stargazers_count || 0);
+      if (starDelta !== 0) {
+        return starDelta;
+      }
+
+      return new Date(b.updated_at) - new Date(a.updated_at);
+    })
+    .slice(0, limit);
   const header = [
     "| Repository | Description | Stars |",
     "| :--- | :--- | ---: |",
