@@ -93,8 +93,11 @@ function buildStatsLine(publicRepos, privateRepos) {
   ].join(" · ");
 }
 
-function buildPrivateSummary(privateRepos) {
-  return `Private repositories: **${privateRepos.length}**`;
+function removeLegacyPrivateSection(readme) {
+  return readme.replace(
+    /\n#### Private Projects\n\n<!-- PROJECTS:PRIVATE:START -->[\s\S]*?<!-- PROJECTS:PRIVATE:END -->\n?/,
+    "\n",
+  );
 }
 
 function replaceSection(readme, startMarker, endMarker, content) {
@@ -109,9 +112,11 @@ function replaceSection(readme, startMarker, endMarker, content) {
 function main() {
   const repos = fetchOwnedRepos();
   const publicRepos = repos.filter((repo) => !repo.private);
+  const publicProjectRepos = publicRepos.filter((repo) => !repo.fork);
   const privateRepos = repos.filter((repo) => repo.private);
 
   let readme = fs.readFileSync(README_PATH, "utf8");
+  readme = removeLegacyPrivateSection(readme);
   readme = replaceSection(
     readme,
     "<!-- PROJECTS:SUMMARY:START -->",
@@ -122,13 +127,7 @@ function main() {
     readme,
     "<!-- PROJECTS:PUBLIC:START -->",
     "<!-- PROJECTS:PUBLIC:END -->",
-    renderPublicTable(publicRepos, { limit: MAX_PUBLIC_REPOS }),
-  );
-  readme = replaceSection(
-    readme,
-    "<!-- PROJECTS:PRIVATE:START -->",
-    "<!-- PROJECTS:PRIVATE:END -->",
-    buildPrivateSummary(privateRepos),
+    renderPublicTable(publicProjectRepos, { limit: MAX_PUBLIC_REPOS }),
   );
 
   fs.writeFileSync(README_PATH, readme);
