@@ -21,17 +21,18 @@ as solved.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **7** · Private repos: **8** · Public stars: **53** · Private stars: **0** · Last sync: **2026-04-29**
+Public repos: **8** · Public stars: **57** · Last sync: **2026-05-07**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 53 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 57 |
+| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Validator-first Lemon Squeezy setup doctor. Library + CLI that verifies your integration before it ships — catches mode mismatch, unpublished products, missing webhook events, and platform changelog drift the official SDK doesn't track yet. | 0 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Portfolio that presenting all the relvant information about my software engineering career. | 0 |
 | **[universal-agent-toolkit](https://github.com/YosefHayim/universal-agent-toolkit)** | Personal hooks,rules,agents,workflows and more for production-hardened plugins for agent providers. | 0 |
+| **[universal-agent-os](https://github.com/YosefHayim/universal-agent-os)** | Orchestrate AI coding agents across providers, in your terminal — multi-repo, multi-provider, with a live TUI. | 0 |
 | **[Template](https://github.com/YosefHayim/Template)** | Typescript template | 0 |
-| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Validator-first Lemon Squeezy setup doctor. Library + CLI that verifies your integration before it ships — catches mode mismatch, unpublished products, missing webhook events, and platform changelog drift the official SDK doesn't track yet. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
