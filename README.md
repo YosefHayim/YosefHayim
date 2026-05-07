@@ -1,39 +1,28 @@
-<div align="center">
-  <h1>Hi there, I'm Yosef Hayim Sabag 👋</h1>
-  <p>
-    <strong>CS Student @ Open University | Agentic AI & Strict-DRY Enthusiast</strong>
-  </p>
-  
-  <div>
-    <a href="https://www.linkedin.com/in/yosef-hayim-sabag">
-      <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://josephsabag.onrender.com">
-      <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
-    </a>
-    <a href="mailto:YosefiSabag@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-  </div>
-</div>
+# Yosef Hayim Sabag
 
----
+CS student building AI agent tooling and Strict-DRY monorepos. I look
+for creative angles on problems other people have already written off
+as solved.
 
-### 👨‍💻 About Me
+[LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [Portfolio](https://josephsabag.onrender.com) · [yosefisabag@gmail.com](mailto:yosefisabag@gmail.com)
 
-* 🧠 **Focus Areas:** Agentic software development, AI orchestration, and mobile engineering. 
-* 🏗️ **Architecture Philosophy:** I strongly advocate for a **Strict-DRY** approach, emphasizing monorepos and shared package reuse to keep codebases minimal and scalable.
-* 🎓 **Education:** Pursuing a B.Sc. in Computer Science at the Open University of Israel (Expected 2029).
+## What I work on
 
----
+- **Agent tooling, not toy demos.** [`ebay-mcp`](https://github.com/YosefHayim/ebay-mcp) ships an open-source local MCP server with 325 tools spanning eBay's Sell APIs — inventory, fulfillment, marketing, analytics, developer tooling.
+- **Validators that catch problems before deploy.** [`fresh-squeezy`](https://github.com/YosefHayim/fresh-squeezy) cross-checks Lemon Squeezy integrations for mode mismatches, ownership drift, and missing webhook events the official SDK doesn't track yet.
+- **Strict-DRY by default.** Monorepos, shared packages, one source of truth per behavior. Wrong abstractions are worse than a second obvious copy.
+- **Personal AI toolkits.** [`universal-agent-toolkit`](https://github.com/YosefHayim/universal-agent-toolkit) — production-hardened hooks, rules, skills, and agents.
 
-### 🚀 Projects
+## Currently
+
+- Open University of Israel — B.Sc. Computer Science (expected 2029).
+- Day-to-day: shipping agentic systems and the tooling that makes them safe to ship.
+
+## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
 Public repos: **7** · Private repos: **8** · Public stars: **53** · Private stars: **0** · Last sync: **2026-04-29**
 <!-- PROJECTS:SUMMARY:END -->
-
-#### Public Projects
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
@@ -46,11 +35,9 @@ Public repos: **7** · Private repos: **8** · Public stars: **53** · Private s
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
-<sub>The summary and public table are generated automatically from GitHub metadata each day. Forked repositories are counted in the summary but omitted from the table. Private repository names and descriptions are intentionally hidden.</sub>
+<sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Private repository names are intentionally hidden.</sub>
 
----
-
-### 📊 GitHub Stats
+## Stats
 
 <div align="center">
   <a href="https://github.com/YosefHayim">

@@ -18,20 +18,52 @@ function runGh(args) {
   }).trim();
 }
 
+/**
+ * Fetches repos for OWNER, sorted by recent activity.
+ *
+ * Tries `/user/repos` first (returns public + private). The default workflow
+ * `GITHUB_TOKEN` is repo-scoped and 403s on this endpoint, so we fall back to
+ * the public `/users/{owner}/repos`. Set a `PROFILE_README_TOKEN` secret
+ * (PAT with `repo` scope) to keep private repos included in the summary.
+ *
+ * @returns {{repos: object[], includesPrivate: boolean}}
+ */
 function fetchOwnedRepos() {
-  const raw = runGh([
-    "api",
-    "--paginate",
-    "--slurp",
-    "/user/repos?per_page=100&affiliation=owner&sort=updated&direction=desc",
-  ]);
-
-  const pages = JSON.parse(raw);
-  return pages
-    .flat()
-    .filter((repo) => repo.owner?.login === OWNER)
-    .filter((repo) => repo.name !== README_REPO)
-    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+  try {
+    const raw = runGh([
+      "api",
+      "--paginate",
+      "--slurp",
+      "/user/repos?per_page=100&affiliation=owner&sort=updated&direction=desc",
+    ]);
+    const repos = JSON.parse(raw)
+      .flat()
+      .filter((repo) => repo.owner?.login === OWNER)
+      .filter((repo) => repo.name !== README_REPO)
+      .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+    return { repos, includesPrivate: true };
+  } catch (err) {
+    const stderr = String(err.stderr || err.message || "");
+    if (!stderr.includes("Resource not accessible") && !stderr.includes("403")) {
+      throw err;
+    }
+    console.warn(
+      "[update-readme-projects] /user/repos not accessible (403). " +
+        `Falling back to public-only /users/${OWNER}/repos. ` +
+        "Set PROFILE_README_TOKEN secret (PAT with `repo` scope) to include private repo counts.",
+    );
+    const raw = runGh([
+      "api",
+      "--paginate",
+      "--slurp",
+      `/users/${OWNER}/repos?per_page=100&type=owner&sort=updated&direction=desc`,
+    ]);
+    const repos = JSON.parse(raw)
+      .flat()
+      .filter((repo) => repo.name !== README_REPO)
+      .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+    return { repos, includesPrivate: false };
+  }
 }
 
 function sanitizeCell(value) {
@@ -80,17 +112,23 @@ function renderPublicTable(repos, { limit }) {
     .join("\n");
 }
 
-function buildStatsLine(publicRepos, privateRepos) {
+function buildStatsLine(publicRepos, privateRepos, includesPrivate) {
   const publicStars = publicRepos.reduce((sum, repo) => sum + (repo.stargazers_count || 0), 0);
-  const privateStars = privateRepos.reduce((sum, repo) => sum + (repo.stargazers_count || 0), 0);
+  const today = new Date().toISOString().slice(0, 10);
 
-  return [
+  const parts = [
     `Public repos: **${publicRepos.length}**`,
-    `Private repos: **${privateRepos.length}**`,
     `Public stars: **${publicStars}**`,
-    `Private stars: **${privateStars}**`,
-    `Last sync: **${new Date().toISOString().slice(0, 10)}**`,
-  ].join(" · ");
+  ];
+
+  if (includesPrivate) {
+    const privateStars = privateRepos.reduce((sum, repo) => sum + (repo.stargazers_count || 0), 0);
+    parts.splice(1, 0, `Private repos: **${privateRepos.length}**`);
+    parts.push(`Private stars: **${privateStars}**`);
+  }
+
+  parts.push(`Last sync: **${today}**`);
+  return parts.join(" · ");
 }
 
 function removeLegacyPrivateSection(readme) {
@@ -110,7 +148,7 @@ function replaceSection(readme, startMarker, endMarker, content) {
 }
 
 function main() {
-  const repos = fetchOwnedRepos();
+  const { repos, includesPrivate } = fetchOwnedRepos();
   const publicRepos = repos.filter((repo) => !repo.private);
   const publicProjectRepos = publicRepos.filter((repo) => !repo.fork);
   const privateRepos = repos.filter((repo) => repo.private);
@@ -121,7 +159,7 @@ function main() {
     readme,
     "<!-- PROJECTS:SUMMARY:START -->",
     "<!-- PROJECTS:SUMMARY:END -->",
-    buildStatsLine(publicRepos, privateRepos),
+    buildStatsLine(publicRepos, privateRepos, includesPrivate),
   );
   readme = replaceSection(
     readme,
