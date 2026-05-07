@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+# Validates the README projects table is in sync with GitHub before pushing main.
+# If stale, regenerates, commits, and blocks the push so the new commit is included on retry.
+# Skipped when: pushing a non-main ref, gh is unavailable, the script is missing, or
+# README already has uncommitted changes (to avoid clobbering work in progress).
+
+set -euo pipefail
+
+ZERO_OID="0000000000000000000000000000000000000000"
+
+pushing_main=0
+while read -r _local_ref local_oid remote_ref _remote_oid; do
+  if [ "$remote_ref" = "refs/heads/main" ] && [ "$local_oid" != "$ZERO_OID" ]; then
+    pushing_main=1
+  fi
+done
+
+if [ "$pushing_main" -eq 0 ]; then
+  exit 0
+fi
+
+repo_root="$(git rev-parse --show-toplevel)"
+script="$repo_root/scripts/update-readme-projects.js"
+readme="$repo_root/README.md"
+
+if [ ! -f "$script" ] || [ ! -f "$readme" ]; then
+  exit 0
+fi
+
+if ! command -v gh >/dev/null 2>&1 || ! gh auth status >/dev/null 2>&1; then
+  echo "[pre-push] gh CLI not available/authenticated; skipping README sync check" >&2
+  exit 0
+fi
+
+if ! git diff --quiet -- "$readme"; then
+  echo "[pre-push] README has uncommitted changes; skipping sync to avoid clobbering" >&2
+  exit 0
+fi
+
+export GITHUB_OWNER="${GITHUB_OWNER:-YosefHayim}"
+export README_REPO="${README_REPO:-YosefHayim}"
+export MAX_PUBLIC_REPOS="${MAX_PUBLIC_REPOS:-12}"
+export GH_TOKEN="${GH_TOKEN:-$(gh auth token)}"
+
+if ! node "$script"; then
+  echo "[pre-push] sync script failed; aborting push" >&2
+  exit 1
+fi
+
+if ! git diff --quiet -- "$readme"; then
+  git add -- "$readme"
+  git commit -m "chore: sync project tables (pre-push)" >/dev/null
+  echo "" >&2
+  echo "[pre-push] README projects table was stale — refreshed and committed." >&2
+  echo "[pre-push] Re-run 'git push' to include the new commit." >&2
+  exit 1
+fi
+
+exit 0
