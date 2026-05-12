@@ -21,13 +21,13 @@ as solved.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **8** · Private repos: **9** · Public stars: **59** · Private stars: **0** · Last sync: **2026-05-11**
+Public repos: **8** · Private repos: **9** · Public stars: **61** · Private stars: **0** · Last sync: **2026-05-12**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 59 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 61 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio site — React 19 + Vite frontend, Express + OpenAI chat backend that answers about the developer. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Validate your Lemon Squeezy integration against changelog drift the official SDK hasn't shipped yet. | 0 |
 | **[universal-agent-toolkit](https://github.com/YosefHayim/universal-agent-toolkit)** | Hooks, rules, skills for Claude Code / OpenCode / Factory Droid that catch AI-coding mistakes before commit. | 0 |
