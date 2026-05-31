@@ -10,6 +10,19 @@ const OWNER = process.env.GITHUB_OWNER || "YosefHayim";
 const README_REPO = process.env.README_REPO || OWNER;
 const MAX_PUBLIC_REPOS = Number(process.env.MAX_PUBLIC_REPOS || "12");
 
+/**
+ * Repos intentionally kept out of the rendered public table — scaffolding and
+ * placeholder projects that aren't part of the story this profile tells.
+ * Matched case-insensitively by repo name. Override with the `EXCLUDED_REPOS`
+ * env var (comma-separated names) without touching this file.
+ */
+const EXCLUDED_REPOS = new Set(
+  (process.env.EXCLUDED_REPOS || "Template,portfolio")
+    .split(",")
+    .map((name) => name.trim().toLowerCase())
+    .filter(Boolean),
+);
+
 function runGh(args) {
   return execFileSync("gh", args, {
     cwd: ROOT,
@@ -150,7 +163,9 @@ function replaceSection(readme, startMarker, endMarker, content) {
 function main() {
   const { repos, includesPrivate } = fetchOwnedRepos();
   const publicRepos = repos.filter((repo) => !repo.private);
-  const publicProjectRepos = publicRepos.filter((repo) => !repo.fork);
+  const publicProjectRepos = publicRepos
+    .filter((repo) => !repo.fork)
+    .filter((repo) => !EXCLUDED_REPOS.has(repo.name.toLowerCase()));
   const privateRepos = repos.filter((repo) => repo.private);
 
   let readme = fs.readFileSync(README_PATH, "utf8");

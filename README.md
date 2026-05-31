@@ -8,33 +8,32 @@ as solved.
 
 ## What I work on
 
-- **Agent tooling, not toy demos.** [`ebay-mcp`](https://github.com/YosefHayim/ebay-mcp) ships an open-source local MCP server with 325 tools spanning eBay's Sell APIs — inventory, fulfillment, marketing, analytics, developer tooling.
-- **Validators that catch problems before deploy.** [`fresh-squeezy`](https://github.com/YosefHayim/fresh-squeezy) cross-checks Lemon Squeezy integrations for mode mismatches, ownership drift, and missing webhook events the official SDK doesn't track yet.
-- **Strict-DRY by default.** Monorepos, shared packages, one source of truth per behavior. Wrong abstractions are worse than a second obvious copy.
-- **Personal AI toolkits.** [`universal-agent-toolkit`](https://github.com/YosefHayim/universal-agent-toolkit) — production-hardened hooks, rules, skills, and agents.
+Can't say much about most of it yet — it's still in the dark.
+
+- **Agents that ship, not agents that demo.** Autonomous systems that run unattended, make their own calls, and hold up when nobody's watching.
+- **The guardrails that keep them honest.** Validators, mode-checkers, and Strict-DRY monorepos — one source of truth, fail loud before deploy.
+- **Something bigger, quietly compounding.** A handful of repos I'm not naming yet. Unicorn-shaped. You'll hear about them when they're ready.
 
 ## Currently
 
-- Open University of Israel — B.Sc. Computer Science (expected 2029).
-- Day-to-day: shipping agentic systems and the tooling that makes them safe to ship.
+- Studying Computer Science at the Open University of Israel.
+- Day-to-day: building agentic systems and the tooling that makes them safe to ship.
 
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **7** · Private repos: **8** · Public stars: **73** · Private stars: **0** · Last sync: **2026-05-31**
+Public repos: **7** · Private repos: **8** · Public stars: **74** · Private stars: **0** · Last sync: **2026-05-31**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 73 |
-| **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio site — React 19 + Vite frontend, Express + OpenAI chat backend that answers about the developer. | 0 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 74 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Validate your Lemon Squeezy integration against changelog drift the official SDK hasn't shipped yet. | 0 |
-| **[Template](https://github.com/YosefHayim/Template)** | Typescript template | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
-<sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Private repository names are intentionally hidden.</sub>
+<sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Scaffolding and placeholder repos are intentionally omitted from the table. Private repository names are intentionally hidden.</sub>
 
 ## Stats
 
