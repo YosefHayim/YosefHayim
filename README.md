@@ -22,13 +22,13 @@ Can't say much about most of it yet — it's still in the dark.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **7** · Private repos: **8** · Public stars: **76** · Private stars: **0** · Last sync: **2026-06-10**
+Public repos: **7** · Private repos: **9** · Public stars: **77** · Private stars: **0** · Last sync: **2026-06-11**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 76 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 77 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Validate your Lemon Squeezy integration against changelog drift the official SDK hasn't shipped yet. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
 <!-- PROJECTS:PUBLIC:END -->
