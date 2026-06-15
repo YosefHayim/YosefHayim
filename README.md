@@ -22,14 +22,14 @@ Can't say much about most of it yet — it's still in the dark.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **8** · Private repos: **9** · Public stars: **77** · Private stars: **0** · Last sync: **2026-06-14**
+Public repos: **8** · Private repos: **9** · Public stars: **78** · Private stars: **0** · Last sync: **2026-06-15**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 77 |
-| **[launch-store](https://github.com/YosefHayim/launch-store)** | CLI to build and ship your iOS/Android apps to the App Store & Play Store from your own Mac — no Expo/EAS bill. | 0 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 78 |
+| **[launch-store](https://github.com/YosefHayim/launch-store)** | Open-source, self-hosted alternative to Expo EAS — build, sign & ship your Expo / React Native apps to TestFlight & Google Play from your own machine, with your own keys. No per-build bill. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Validate your Lemon Squeezy integration against changelog drift the official SDK hasn't shipped yet. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
 <!-- PROJECTS:PUBLIC:END -->
