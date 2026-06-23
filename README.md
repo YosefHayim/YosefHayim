@@ -22,7 +22,7 @@ Can't say much about most of it yet — it's still in the dark.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **8** · Private repos: **10** · Public stars: **86** · Private stars: **0** · Last sync: **2026-06-22**
+Public repos: **7** · Private repos: **10** · Public stars: **86** · Private stars: **0** · Last sync: **2026-06-23**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
