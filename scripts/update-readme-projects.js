@@ -17,7 +17,8 @@ const MAX_PUBLIC_REPOS = Number(process.env.MAX_PUBLIC_REPOS || "12");
  * env var (comma-separated names) without touching this file.
  */
 const EXCLUDED_REPOS = new Set(
-  (process.env.EXCLUDED_REPOS || "Template,portfolio")
+  (process.env.EXCLUDED_REPOS ||
+    "Template,portfolio,skills-bag,chatgpt-local-bridge")
     .split(",")
     .map((name) => name.trim().toLowerCase())
     .filter(Boolean),
