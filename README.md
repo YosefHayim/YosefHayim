@@ -22,13 +22,13 @@ Can't say much about most of it yet — it's still in the dark.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **10** · Private repos: **10** · Public stars: **92** · Private stars: **0** · Last sync: **2026-07-03**
+Public repos: **10** · Private repos: **10** · Public stars: **93** · Private stars: **0** · Last sync: **2026-07-04**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 92 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 93 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Drives an open ChatGPT browser session from the terminal via MCP tools, with sandboxed file access. | 0 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | Reusable HTML UI kit for terminal skills — render an agent's plan, review gate, or before/after report as a beautiful, self-contained, interactive local page. Like mcp-ui, but for skills. | 0 |
 | **[dufflebag](https://github.com/YosefHayim/dufflebag)** | One-command installer for a personal bag of Claude Code skills & hooks: context guardrail, hands-free autonomous-compact loop, and macOS TTS. Pure TypeScript, no Python. | 0 |
