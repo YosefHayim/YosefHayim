@@ -22,18 +22,18 @@ Can't say much about most of it yet — it's still in the dark.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **10** · Private repos: **10** · Public stars: **93** · Private stars: **0** · Last sync: **2026-07-04**
+Public repos: **10** · Private repos: **11** · Public stars: **94** · Private stars: **0** · Last sync: **2026-07-05**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 93 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 94 |
+| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | One-command installer for a personal bag of Claude Code skills & hooks: context guardrail, hands-free autonomous-compact loop, and macOS TTS. Pure TypeScript, no Python. | 0 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Drives an open ChatGPT browser session from the terminal via MCP tools, with sandboxed file access. | 0 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | Reusable HTML UI kit for terminal skills — render an agent's plan, review gate, or before/after report as a beautiful, self-contained, interactive local page. Like mcp-ui, but for skills. | 0 |
-| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | One-command installer for a personal bag of Claude Code skills & hooks: context guardrail, hands-free autonomous-compact loop, and macOS TTS. Pure TypeScript, no Python. | 0 |
-| **[launch-store](https://github.com/YosefHayim/launch-store)** | Open-source, self-hosted alternative to Expo EAS — build, sign & ship your Expo / React Native apps to TestFlight & Google Play from your own machine, with your own keys. No per-build bill. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Open source CLI and TypeScript library that validates your Lemon Squeezy billing integration — stores, products, webhooks, discounts, license keys, and subscription plans — and catches misconfigurations before they ship. | 0 |
+| **[launch-store](https://github.com/YosefHayim/launch-store)** | Open-source, self-hosted alternative to Expo EAS — build, sign & ship your Expo / React Native apps to TestFlight & Google Play from your own machine, with your own keys. No per-build bill. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
