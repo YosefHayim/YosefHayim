@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="Yosef Hayim Sabag — AI agent systems and practical developer infrastructure" width="100%" />
+</p>
+
 # Yosef Hayim Sabag
 
 CS student building AI agent tooling and Strict-DRY monorepos. I look
