@@ -22,20 +22,20 @@ Can't say much about most of it yet — it's still in the dark.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **11** · Private repos: **12** · Public stars: **96** · Private stars: **0** · Last sync: **2026-07-07**
+Public repos: **11** · Private repos: **12** · Public stars: **100** · Private stars: **0** · Last sync: **2026-07-08**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | Stars |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Open source local MCP server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes 325 tools for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more. | 96 |
-| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | TypeScript CLI for installing curated Claude Code skills, hooks, and reusable CI/publish workflow templates. | 0 |
-| **[launch-store](https://github.com/YosefHayim/launch-store)** | Open-source, self-hosted alternative to Expo EAS — build, sign & ship your Expo / React Native apps to TestFlight & Google Play from your own machine, with your own keys. No per-build bill. | 0 |
-| **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Drives an open ChatGPT browser session from the terminal via MCP tools, with sandboxed file access. | 0 |
-| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First project accomplished, Vanilla JS | 0 |
-| **[planpage](https://github.com/YosefHayim/planpage)** | Reusable HTML UI kit for terminal skills — render an agent's plan, review gate, or before/after report as a beautiful, self-contained, interactive local page. Like mcp-ui, but for skills. | 0 |
-| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | Open source CLI and TypeScript library that validates your Lemon Squeezy billing integration — stores, products, webhooks, discounts, license keys, and subscription plans — and catches misconfigurations before they ship. | 0 |
-| **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Pack cold local AI coding-agent sessions with byte-exact restore. | 0 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 96 |
+| **[planpage](https://github.com/YosefHayim/planpage)** | TypeScript CLI and Preact render kit for turning agent plans and review gates into local HTML with optional approvals. | 2 |
+| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | TypeScript CLI for installing agent skills, hooks, and CI/publish templates for Claude Code and related tools. | 2 |
+| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | Vanilla JavaScript movie trailer app using TMDB data, local favorites, and an AI-generated character asset pipeline. | 0 |
+| **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted CLI for building, signing, and shipping Expo/React Native apps to TestFlight and Google Play. | 0 |
+| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library for validating Lemon Squeezy billing setup in local checks and CI. | 0 |
+| **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Terminal bridge that drives browser AI chats and exposes sandboxed local repo tools through MCP. | 0 |
+| **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
 <sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Scaffolding and placeholder repos are intentionally omitted from the table. Private repository names are intentionally hidden.</sub>
