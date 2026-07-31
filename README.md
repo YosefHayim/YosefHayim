@@ -22,7 +22,7 @@ Can't say much about most of it yet — it's still in the dark.
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **11** · Private repos: **18** · Public stars: **117** · Private stars: **0** · Last sync: **2026-07-30**
+Public repos: **9** · Private repos: **19** · Public stars: **115** · Private stars: **0** · Last sync: **2026-07-31**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
@@ -30,7 +30,6 @@ Public repos: **11** · Private repos: **18** · Public stars: **117** · Privat
 | :--- | :--- | ---: |
 | **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 109 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted CLI for building, signing, and shipping Expo/React Native apps to TestFlight and Google Play. | 3 |
-| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | TypeScript CLI for installing agent skills, hooks, and CI/publish templates for Claude Code and related tools. | 2 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | TypeScript CLI and Preact render kit for turning agent plans and review gates into local HTML with optional approvals. | 2 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Terminal bridge that drives browser AI chats and exposes sandboxed local repo tools through MCP. | 1 |
 | **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
