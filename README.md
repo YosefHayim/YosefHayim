@@ -1,47 +1,49 @@
-<p align="center">
-  <img src="assets/hero.svg" alt="Yosef Hayim Sabag — AI agent systems and practical developer infrastructure" width="100%" />
-</p>
-
 # Yosef Hayim Sabag
 
-CS student building AI agent tooling and Strict-DRY monorepos. I look
-for creative angles on problems other people have already written off
-as solved.
+I'm a <!-- AGE:START -->26<!-- AGE:END -->-year-old freelance AI engineer based in
+central Israel. I build agent tooling and Strict-DRY monorepos, and I look for
+creative angles on problems other people have already written off as solved.
 
 [LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [Portfolio](https://josephsabag.onrender.com) · [yosefisabag@gmail.com](mailto:yosefisabag@gmail.com)
 
-## What I work on
+## How I got here
 
-Can't say much about most of it yet — it's still in the dark.
+I paid a Fiverr developer to automate my dropshipping store. He delivered late, and not what I paid for. That's the whole origin story  I decided I'd never wait on someone else's commit again.
 
-- **Agents that ship, not agents that demo.** Autonomous systems that run unattended, make their own calls, and hold up when nobody's watching.
-- **The guardrails that keep them honest.** Validators, mode-checkers, and Strict-DRY monorepos — one source of truth, fail loud before deploy.
-- **Something bigger, quietly compounding.** A handful of repos I'm not naming yet. Unicorn-shaped. You'll hear about them when they're ready.
+Before the code there was the army. Combat soldier, Nahal Brigade, 931st Battalion, 2018 to 2021. Ten of eight hundred picked in basic training, then excellence again in the commanders course. Discipline wasn't something I got from a course.
 
-## Currently
+When ChatGPT shipped in November 2022 I started building things I couldn't read. Nobody called it vibe coding yet. Then it started bothering me I wanted to know what the machine had written in my name. Python on Udemy first. Then Atidim, the Ministry of Defense program, July 2024 to February 2025: React, Node, Express, MongoDB, vanilla JS, the fundamentals. Finished with excellence, five more courses stacked on the side, seventeen-hour days for months.
 
-- Studying Computer Science at the Open University of Israel.
-- Day-to-day: building agentic systems and the tooling that makes them safe to ship.
+I was trying to close the gap between a CS graduate and a street cat. I closed it.
+
+The business that started all this collapsed and took my finances with it. Best thing that could have happened to me. An internship at [Wotch](https://www.wotch.health/), a clinical-workflow startup, then eleven months at Predicto, and now freelance.
+
+I came in mid-agentic-era, so I write both ways  agents when they earn it, my own hands when they don't. Greedy for both.
+
+The project that made me fall in love with engineering was [tim-trailers](https://github.com/YosefHayim/tim-trailers). Plain vanilla JS. GPT-3.5 taught me event delegation while I built it, and I've never forgotten the term.
+
+Building something agentic that has to run unattended, with nobody watching? That's my whole thing.
 
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **9** · Private repos: **19** · Public stars: **115** · Private stars: **0** · Last sync: **2026-07-31**
+Public repos: **9** · Public stars: **117** · Private repos: **14** · Last sync: **2026-08-01**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
-| Repository | Description | Stars |
+| Repository | Description | ⭐ |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 109 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 111 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted CLI for building, signing, and shipping Expo/React Native apps to TestFlight and Google Play. | 3 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | TypeScript CLI and Preact render kit for turning agent plans and review gates into local HTML with optional approvals. | 2 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Terminal bridge that drives browser AI chats and exposes sandboxed local repo tools through MCP. | 1 |
+| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First Vanilla JavaScript movie trailer app using TMDB data, local favorites, and an AI-generated character asset pipeline. | 0 |
+| **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library for validating Lemon Squeezy billing setup in local checks and CI. | 0 |
 | **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
-| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | Vanilla JavaScript movie trailer app using TMDB data, local favorites, and an AI-generated character asset pipeline. | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
-<sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Scaffolding and placeholder repos are intentionally omitted from the table. Private repository names are intentionally hidden.</sub>
+<sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Private repository names are intentionally hidden.</sub>
 
 ## Stats
 

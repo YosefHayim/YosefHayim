@@ -1,0 +1,21 @@
+{
+  "name": "yosefhayim",
+  "version": "1.0.0",
+  "description": "GitHub profile README that syncs portfolio projects, repo stats, and proof-of-work links from GitHub metadata.",
+  "homepage": "https://github.com/YosefHayim/YosefHayim#readme",
+  "bugs": {
+    "url": "https://github.com/YosefHayim/YosefHayim/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosefHayim/YosefHayim.git"
+  },
+  "author": "Yosef Hayim Sabag <yosefisabag@gmail.com> (https://yosefhayimsabag.com)",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "sync": "node scripts/update-readme-projects.ts"
+  }
+}
