@@ -9,7 +9,7 @@ on:
       - main
     paths:
       - README.md
-      - scripts/update-readme-projects.js
+      - scripts/update-readme-projects.ts
       - .github/workflows/update-projects.yml
 
 jobs:
@@ -26,15 +26,14 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
+      # The gh CLI reads GH_TOKEN; our code never does. It has to be the PAT, because
+      # the default github.token cannot see /user/repos, so private repos would go missing.
       - name: Regenerate project tables
         env:
-          GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN != '' && secrets.PROFILE_README_TOKEN || github.token }}
-          GITHUB_OWNER: YosefHayim
-          README_REPO: YosefHayim
-          MAX_PUBLIC_REPOS: "12"
-        run: node scripts/update-readme-projects.js
+          GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN }}
+        run: node scripts/update-readme-projects.ts
 
       - name: Commit if changed
         run: |
