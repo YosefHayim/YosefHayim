@@ -8,17 +8,17 @@ creative angles on problems other people have already written off as solved.
 
 ## How I got here
 
-I paid a Fiverr developer to automate my dropshipping store. He delivered late, and not what I paid for. That's the whole origin story  I decided I'd never wait on someone else's commit again.
+I paid a Fiverr developer to automate my dropshipping store. He delivered late, and not what I paid for. That's the whole origin story. I decided I'd never wait on someone else's commit again.
 
 Before the code there was the army. Combat soldier, Nahal Brigade, 931st Battalion, 2018 to 2021. Ten of eight hundred picked in basic training, then excellence again in the commanders course. Discipline wasn't something I got from a course.
 
-When ChatGPT shipped in November 2022 I started building things I couldn't read. Nobody called it vibe coding yet. Then it started bothering me I wanted to know what the machine had written in my name. Python on Udemy first. Then Atidim, the Ministry of Defense program, July 2024 to February 2025: React, Node, Express, MongoDB, vanilla JS, the fundamentals. Finished with excellence, five more courses stacked on the side, seventeen-hour days for months.
+When ChatGPT shipped in November 2022 I started building things I couldn't read. Nobody called it vibe coding yet. Then it started bothering me. I wanted to know what the machine had written in my name. Python on Udemy first. Then Atidim, the Ministry of Defense program, July 2024 to February 2025: React, Node, Express, MongoDB, vanilla JS, the fundamentals. Finished with excellence, five more courses stacked on the side, seventeen-hour days for months.
 
 I was trying to close the gap between a CS graduate and a street cat. I closed it.
 
 The business that started all this collapsed and took my finances with it. Best thing that could have happened to me. An internship at [Wotch](https://www.wotch.health/), a clinical-workflow startup, then eleven months at Predicto, and now freelance.
 
-I came in mid-agentic-era, so I write both ways  agents when they earn it, my own hands when they don't. Greedy for both.
+I came in mid-agentic-era, so I write both ways. Agents when they earn it, my own hands when they don't. Greedy for both.
 
 The project that made me fall in love with engineering was [tim-trailers](https://github.com/YosefHayim/tim-trailers). Plain vanilla JS. GPT-3.5 taught me event delegation while I built it, and I've never forgotten the term.
 
