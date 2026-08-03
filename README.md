@@ -16,7 +16,7 @@ When ChatGPT shipped in November 2022 I started building things I couldn't read.
 
 I was trying to close the gap between a CS graduate and a street cat. I closed it.
 
-The business that started all this collapsed and took my finances with it. Best thing that could have happened to me. An internship at [Wotch](https://www.wotch.health/), a clinical-workflow startup, then eleven months at Predicto, and now freelance.
+The business that started all this collapsed and took my finances with it. Best thing that could have happened to me. An internship at [Wotch](https://www.wotch.health/), a clinical-workflow startup, then eleven months at [Predicto](https://github.com/Exorigos), and now freelance.
 
 I came in mid-agentic-era, so I write both ways. Agents when they earn it, my own hands when they don't. Greedy for both.
 
