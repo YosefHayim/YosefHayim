@@ -27,16 +27,17 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **9** · Public stars: **122** · Private repos: **14** · Last sync: **2026-08-05**
+Public repos: **10** · Public stars: **123** · Private repos: **14** · Last sync: **2026-08-06**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | ⭐ |
 | :--- | :--- | ---: |
 | **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 114 |
-| **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted CLI for building, signing, and shipping Expo/React Native apps to TestFlight and Google Play. | 5 |
+| **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted CLI for building, signing, and shipping Expo/React Native apps to TestFlight and Google Play. | 6 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | TypeScript CLI and Preact render kit for turning agent plans and review gates into local HTML with optional approvals. | 2 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Terminal bridge that drives browser AI chats and exposes sandboxed local repo tools through MCP. | 1 |
+| **[yt-captions-mini-ai](https://github.com/YosefHayim/yt-captions-mini-ai)** | Tiny TypeScript CLI for YouTube captions (video, playlist, channel, shorts) and optional local-agent SKILL.md scaffolding | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First Vanilla JavaScript movie trailer app using TMDB data, local favorites, and an AI-generated character asset pipeline. | 0 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library for validating Lemon Squeezy billing setup in local checks and CI. | 0 |
