@@ -14,7 +14,7 @@ Before the code there was the army. Combat soldier, Nahal Brigade, 931st Battali
 
 When ChatGPT shipped in November 2022 I started building things I couldn't read. Nobody called it vibe coding yet. Then it started bothering me. I wanted to know what the machine had written in my name. Python on Udemy first. Then Atidim, the Ministry of Defense program, July 2024 to February 2025: React, Node, Express, MongoDB, vanilla JS, the fundamentals. Finished with excellence, five more courses stacked on the side, seventeen-hour days for months.
 
-I was trying to close the gap between a CS graduate and a street cat. I closed it.
+I was trying to close the gap between a CS graduate and as a "street cat". I closed it.
 
 The business that started all this collapsed and took my finances with it. Best thing that could have happened to me. An internship at [Wotch](https://www.wotch.health/), a clinical-workflow startup, then eleven months at [Predicto](https://github.com/Exorigos), and now freelance.
 
