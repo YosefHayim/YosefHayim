@@ -27,7 +27,7 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **10** · Public stars: **125** · Private repos: **14** · Last sync: **2026-08-07**
+Public repos: **11** · Public stars: **125** · Private repos: **14** · Last sync: **2026-08-08**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
@@ -38,6 +38,7 @@ Public repos: **10** · Public stars: **125** · Private repos: **14** · Last s
 | **[planpage](https://github.com/YosefHayim/planpage)** | TypeScript CLI and Preact render kit for turning agent plans and review gates into local HTML with optional approvals. | 2 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Terminal bridge that drives browser AI chats and exposes sandboxed local repo tools through MCP. | 1 |
 | **[yt-captions-mini-ai](https://github.com/YosefHayim/yt-captions-mini-ai)** | Tiny TypeScript CLI for YouTube captions (video, playlist, channel, shorts) and optional local-agent SKILL.md scaffolding | 1 |
+| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | TypeScript CLI for installing agent skills, hooks, and CI/publish templates for Claude Code and related tools. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library for validating Lemon Squeezy billing setup in local checks and CI. | 0 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First Vanilla JavaScript movie trailer app using TMDB data, local favorites, and an AI-generated character asset pipeline. | 0 |
