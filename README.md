@@ -27,13 +27,13 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **11** · Public stars: **157** · Private repos: **15** · Last sync: **2026-09-04**
+Public repos: **11** · Public stars: **159** · Private repos: **15** · Last sync: **2026-09-05**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | ⭐ |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 143 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 145 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted CLI for building, signing, and shipping Expo/React Native apps to TestFlight and Google Play. | 9 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Terminal bridge that drives browser AI chats and exposes sandboxed local repo tools through MCP. | 2 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | TypeScript CLI and Preact render kit for turning agent plans and review gates into local HTML with optional approvals. | 2 |
