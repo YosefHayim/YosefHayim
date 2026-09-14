@@ -27,19 +27,19 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **11** · Public stars: **166** · Private repos: **15** · Last sync: **2026-09-13**
+Public repos: **11** · Public stars: **168** · Private repos: **15** · Last sync: **2026-09-14**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | ⭐ |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 153 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports. | 155 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted CLI for building, signing, and shipping Expo/React Native apps to TestFlight and Google Play. | 8 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | Terminal bridge that drives browser AI chats and exposes sandboxed local repo tools through MCP. | 2 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | TypeScript CLI and Preact render kit for turning agent plans and review gates into local HTML with optional approvals. | 2 |
 | **[yt-captions-mini-ai](https://github.com/YosefHayim/yt-captions-mini-ai)** | Tiny TypeScript CLI for YouTube captions (video, playlist, channel, shorts) and optional local-agent SKILL.md scaffolding | 1 |
-| **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
 | **[dufflebag](https://github.com/YosefHayim/dufflebag)** | TypeScript CLI for installing agent skills, hooks, and CI/publish templates for Claude Code and related tools. | 0 |
+| **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library for validating Lemon Squeezy billing setup in local checks and CI. | 0 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | First Vanilla JavaScript movie trailer app using TMDB data, local favorites, and an AI-generated character asset pipeline. | 0 |
