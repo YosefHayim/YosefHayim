@@ -4,7 +4,7 @@ I'm a <!-- AGE:START -->26<!-- AGE:END -->-year-old freelance AI engineer based 
 central Israel. I build agent tooling and Strict-DRY monorepos, and I look for
 creative angles on problems other people have already written off as solved.
 
-[LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [Portfolio](https://josephsabag.onrender.com) · [yosefisabag@gmail.com](mailto:yosefisabag@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [yosefisabag@gmail.com](mailto:yosefisabag@gmail.com)
 
 ## How I got here
 
