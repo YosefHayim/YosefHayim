@@ -27,15 +27,15 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **12** · Public stars: **184** · Private repos: **7** · Last sync: **2026-09-30**
+Public repos: **12** · Public stars: **186** · Private repos: **8** · Last sync: **2026-10-01**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | ⭐ |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 167 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 168 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted EAS alternative that builds, signs, and ships Expo/React Native apps to the App Store and Google Play. | 9 |
-| **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | macOS CLI that drives ChatGPT, Gemini, Claude, and other web chats in Chrome, with sandboxed repo tools over MCP. | 5 |
+| **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | macOS CLI that drives ChatGPT, Gemini, Claude, and other web chats in Chrome, with sandboxed repo tools over MCP. | 6 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | CLI and Preact kit that renders AI agent plans and reports as local HTML, with in-browser feedback sent back to the agent. | 2 |
 | **[yt-captions-mini-ai](https://github.com/YosefHayim/yt-captions-mini-ai)** | YouTube captions CLI for videos, playlists, and channels with bulk concurrency, caching, and optional SKILL.md scaffolding. | 1 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
