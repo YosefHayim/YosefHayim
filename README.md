@@ -27,23 +27,23 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **12** · Public stars: **186** · Private repos: **8** · Last sync: **2026-10-01**
+Public repos: **12** · Public stars: **188** · Private repos: **7** · Last sync: **2026-10-02**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | ⭐ |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 168 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 170 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted EAS alternative that builds, signs, and ships Expo/React Native apps to the App Store and Google Play. | 9 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | macOS CLI that drives ChatGPT, Gemini, Claude, and other web chats in Chrome, with sandboxed repo tools over MCP. | 6 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | CLI and Preact kit that renders AI agent plans and reports as local HTML, with in-browser feedback sent back to the agent. | 2 |
 | **[yt-captions-mini-ai](https://github.com/YosefHayim/yt-captions-mini-ai)** | YouTube captions CLI for videos, playlists, and channels with bulk concurrency, caching, and optional SKILL.md scaffolding. | 1 |
+| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | CLI that installs and updates coding-agent skills, hooks, and workflow templates for Claude Code, Codex, Grok, and Kiro. | 0 |
+| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library that validates Lemon Squeezy billing setup in CI and runs store API operations. | 0 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | Vanilla JavaScript movie trailer site using the TMDB API, with search, genre browsing, favorites, and an AI-drawn mascot. | 0 |
 | **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
 | **[expo-mediapipe-pose](https://github.com/YosefHayim/expo-mediapipe-pose)** | Expo module for on-device MediaPipe pose detection in camera, photo, and video, with custom skeletons and feedback rules. | 0 |
-| **[dufflebag](https://github.com/YosefHayim/dufflebag)** | CLI that installs and updates coding-agent skills, hooks, and workflow templates for Claude Code, Codex, Grok, and Kiro. | 0 |
-| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library that validates Lemon Squeezy billing setup in CI and runs store API operations. | 0 |
 <!-- PROJECTS:PUBLIC:END -->
 
 <sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Private repository names are intentionally hidden.</sub>
