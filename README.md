@@ -27,13 +27,13 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **14** · Public stars: **190** · Private repos: **9** · Last sync: **2026-10-07**
+Public repos: **14** · Public stars: **191** · Private repos: **9** · Last sync: **2026-10-08**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | ⭐ |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 172 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 173 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted EAS alternative that builds, signs, and ships Expo/React Native apps to the App Store and Google Play. | 9 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | macOS CLI that drives ChatGPT, Gemini, Claude, and other web chats in Chrome, with sandboxed repo tools over MCP. | 6 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | CLI and Preact kit that renders AI agent plans and reports as local HTML, with in-browser feedback sent back to the agent. | 2 |
