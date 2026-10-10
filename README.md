@@ -27,7 +27,7 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **13** · Public stars: **192** · Private repos: **7** · Last sync: **2026-10-09**
+Public repos: **13** · Public stars: **192** · Private repos: **7** · Last sync: **2026-10-10**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
@@ -38,9 +38,9 @@ Public repos: **13** · Public stars: **192** · Private repos: **7** · Last sy
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | macOS CLI that drives ChatGPT, Gemini, Claude, and other web chats in Chrome, with sandboxed repo tools over MCP. | 6 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | CLI and Preact kit that renders AI agent plans and reports as local HTML, with in-browser feedback sent back to the agent. | 2 |
 | **[yt-captions-mini-ai](https://github.com/YosefHayim/yt-captions-mini-ai)** | YouTube captions CLI for videos, playlists, and channels with bulk concurrency, caching, and optional SKILL.md scaffolding. | 1 |
+| **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
 | **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
 | **[voxkey](https://github.com/YosefHayim/voxkey)** | Hold Shift to dictate into any text field and hear coding-agent replies read aloud, all on your Mac. | 0 |
-| **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
 | **[agent-outfit](https://github.com/YosefHayim/agent-outfit)** | TypeScript CLI that installs, updates, diagnoses, configures, and removes a coding-agent setup: skills, guard hooks, agent configuration, workflow templates, and status lines for Claude Code, Codex, Grok, Kimi, Kiro, and more. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | Vanilla JavaScript movie trailer site using the TMDB API, with search, genre browsing, favorites, and an AI-drawn mascot. | 0 |
 | **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library that validates Lemon Squeezy billing setup in CI and runs store API operations. | 0 |
