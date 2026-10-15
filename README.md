@@ -27,19 +27,19 @@ Building something agentic that has to run unattended, with nobody watching? Tha
 ## Projects
 
 <!-- PROJECTS:SUMMARY:START -->
-Public repos: **13** · Public stars: **194** · Private repos: **7** · Last sync: **2026-10-14**
+Public repos: **13** · Public stars: **197** · Private repos: **9** · Last sync: **2026-10-15**
 <!-- PROJECTS:SUMMARY:END -->
 
 <!-- PROJECTS:PUBLIC:START -->
 | Repository | Description | ⭐ |
 | :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 175 |
+| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 178 |
 | **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted EAS alternative that builds, signs, and ships Expo/React Native apps to the App Store and Google Play. | 9 |
 | **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | macOS CLI that drives ChatGPT, Gemini, Claude, and other web chats in Chrome, with sandboxed repo tools over MCP. | 7 |
 | **[planpage](https://github.com/YosefHayim/planpage)** | CLI and Preact kit that renders AI agent plans and reports as local HTML, with in-browser feedback sent back to the agent. | 2 |
 | **[yt-captions-mini-ai](https://github.com/YosefHayim/yt-captions-mini-ai)** | YouTube captions CLI for videos, playlists, and channels with bulk concurrency, caching, and optional SKILL.md scaffolding. | 1 |
+| **[agent-setup](https://github.com/YosefHayim/agent-setup)** | TypeScript CLI that installs, updates, diagnoses, configures, and removes a coding-agent setup: skills, guard hooks, agent configuration, workflow templates, and status lines for Claude Code, Codex, Grok, Kimi, Kiro, and more. | 0 |
 | **[portfolio](https://github.com/YosefHayim/portfolio)** | Personal portfolio and proof-of-work site with React/Vite frontend, Cloudflare worker, and OpenAI-backed assistant. | 0 |
-| **[agent-outfit](https://github.com/YosefHayim/agent-outfit)** | TypeScript CLI that installs, updates, diagnoses, configures, and removes a coding-agent setup: skills, guard hooks, agent configuration, workflow templates, and status lines for Claude Code, Codex, Grok, Kimi, Kiro, and more. | 0 |
 | **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
 | **[voxkey](https://github.com/YosefHayim/voxkey)** | Hold Shift to dictate into any text field and hear coding-agent replies read aloud, all on your Mac. | 0 |
 | **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | Vanilla JavaScript movie trailer site using the TMDB API, with search, genre browsing, favorites, and an AI-drawn mascot. | 0 |
