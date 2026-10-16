@@ -1,9 +1,8 @@
 name: Sync Project Tables
-
-on:
+'on':
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: 0 0 * * *
+  workflow_dispatch: null
   push:
     branches:
       - main
@@ -11,30 +10,27 @@ on:
       - README.md
       - scripts/update-readme-projects.ts
       - .github/workflows/update-projects.yml
-
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 24
-
-      # The gh CLI reads GH_TOKEN; our code never does. It has to be the PAT, because
-      # the default github.token cannot see /user/repos, so private repos would go missing.
+          package-manager-cache: false
       - name: Regenerate project tables
         env:
           GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN }}
         run: node scripts/update-readme-projects.ts
-
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -44,3 +40,4 @@ jobs:
             git commit -m "chore: sync project tables [skip ci]" &&
             git push
           )
+    timeout-minutes: 5
