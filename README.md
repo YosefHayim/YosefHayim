@@ -1,60 +1,30 @@
-# Yosef Hayim Sabag
+# Hi, I'm Yosef
 
-I'm a <!-- AGE:START -->26<!-- AGE:END -->-year-old freelance AI engineer based in
-central Israel. I build agent tooling and Strict-DRY monorepos, and I look for
-creative angles on problems other people have already written off as solved.
+Welcome, and thanks for stopping by. I'm an x10 AI-native developer based in Tel Aviv. I work side by side with AI agents every day, and I build the tools that make that work better: agent tooling, MCP servers, and full-stack TypeScript apps for web and mobile.
 
-[LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [yosefisabag@gmail.com](mailto:yosefisabag@gmail.com)
+Whether you have a project in mind, want to build something open source together, or are looking for a speaker, I'd love to hear from you.
 
-## How I got here
+[Website](https://yosefhayimsabag.com) · [LinkedIn](https://www.linkedin.com/in/yosef-hayim-sabag) · [Email](mailto:yosefisabag@gmail.com)
 
-I paid a Fiverr developer to automate my dropshipping store. He delivered late, and not what I paid for. That's the whole origin story. I decided I'd never wait on someone else's commit again.
+## Work with me
 
-Before the code there was the army. Combat soldier, Nahal Brigade, 931st Battalion, 2018 to 2021. Ten of eight hundred picked in basic training, then excellence again in the commanders course. Discipline wasn't something I got from a course.
+- **Freelance:** AI agent integrations, MCP servers, React and React Native apps, Cloudflare Workers backends. Email me a short description of the project.
+- **Open source:** Issues and pull requests on my projects are welcome. I also contribute to tools I use.
+- **Talks:** Open to meetups, podcasts and conferences on building AI agent tooling and MCP servers.
 
-When ChatGPT shipped in November 2022 I started building things I couldn't read. Nobody called it vibe coding yet. Then it started bothering me. I wanted to know what the machine had written in my name. Python on Udemy first. Then Atidim, the Ministry of Defense program, July 2024 to February 2025: React, Node, Express, MongoDB, vanilla JS, the fundamentals. Finished with excellence, five more courses stacked on the side, seventeen-hour days for months.
+## Selected projects
 
-I was trying to close the gap between a CS graduate and as a "street cat". I closed it.
+- [ebay-mcp](https://github.com/YosefHayim/ebay-mcp): MCP server that connects AI assistants to the eBay seller APIs.
+- [launch-store](https://github.com/YosefHayim/launch-store): Self-hosted EAS alternative that builds, signs and ships Expo apps to the App Store and Google Play.
+- [ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge): macOS CLI that drives ChatGPT, Gemini and Claude web chats in Chrome, with repo tools over MCP.
+- [expo-mediapipe-pose](https://github.com/YosefHayim/expo-mediapipe-pose): Expo module for on-device pose detection in camera, photo and video.
+- [fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy): CLI and library that checks a Lemon Squeezy billing setup in CI.
+- [planpage](https://github.com/YosefHayim/planpage): CLI that turns AI agent plans into local HTML pages you can comment on.
 
-The business that started all this collapsed and took my finances with it. Best thing that could have happened to me. An internship at [Wotch](https://www.wotch.health/), a clinical-workflow startup, then eleven months at [Predicto](https://github.com/Exorigos), and now freelance.
+## Background
 
-I came in mid-agentic-era, so I write both ways. Agents when they earn it, my own hands when they don't. Greedy for both.
-
-The project that made me fall in love with engineering was [tim-trailers](https://github.com/YosefHayim/tim-trailers). Plain vanilla JS. GPT-3.5 taught me event delegation while I built it, and I've never forgotten the term.
-
-Building something agentic that has to run unattended, with nobody watching? That's my whole thing.
-
-## Projects
-
-<!-- PROJECTS:SUMMARY:START -->
-Public repos: **12** · Public stars: **203** · Private repos: **16** · Last sync: **2026-10-23**
-<!-- PROJECTS:SUMMARY:END -->
-
-<!-- PROJECTS:PUBLIC:START -->
-| Repository | Description | ⭐ |
-| :--- | :--- | ---: |
-| **[ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** | Local MCP server that connects AI assistants to eBay seller APIs for listings, orders, and marketing, with OAuth setup. | 185 |
-| **[launch-store](https://github.com/YosefHayim/launch-store)** | Self-hosted EAS alternative that builds, signs, and ships Expo/React Native apps to the App Store and Google Play. | 9 |
-| **[ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge)** | macOS CLI that drives ChatGPT, Gemini, Claude, and other web chats in Chrome, with sandboxed repo tools over MCP. | 7 |
-| **[planpage](https://github.com/YosefHayim/planpage)** | CLI and Preact kit that renders AI agent plans and reports as local HTML, with in-browser feedback sent back to the agent. | 2 |
-| **[freelance-landing-page](https://github.com/YosefHayim/freelance-landing-page)** | Bilingual landing page for freelance software work: React and Vite, served by one Cloudflare Worker. | 0 |
-| **[agent-setup](https://github.com/YosefHayim/agent-setup)** | TypeScript CLI that installs, updates, diagnoses, configures, and removes a coding-agent setup: skills, guard hooks, agent configuration, workflow templates, and status lines for Claude Code, Codex, Grok, Kimi, Kiro, and more. | 0 |
-| **[agent-voice](https://github.com/YosefHayim/agent-voice)** | Hold Shift to dictate into any text field and hear coding-agent replies read aloud, all on your Mac. | 0 |
-| **[agent-session-pack](https://github.com/YosefHayim/agent-session-pack)** | Node CLI for compressing cold AI coding-agent sessions with verified byte-exact restore. | 0 |
-| **[tim-trailers](https://github.com/YosefHayim/tim-trailers)** | Vanilla JavaScript movie trailer site using the TMDB API, with search, genre browsing, favorites, and an AI-drawn mascot. | 0 |
-| **[fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy)** | CLI and TypeScript library that validates Lemon Squeezy billing setup in CI and runs store API operations. | 0 |
-| **[expo-mediapipe-pose](https://github.com/YosefHayim/expo-mediapipe-pose)** | Expo module for on-device MediaPipe pose detection in camera, photo, and video, with custom skeletons and feedback rules. | 0 |
-<!-- PROJECTS:PUBLIC:END -->
-
-<sub>Summary and table are regenerated daily from GitHub metadata. Forks are counted in the summary but omitted from the table. Private repository names are intentionally hidden.</sub>
-
-## Stats
-
-<div align="center">
-  <a href="https://github.com/YosefHayim">
-    <img src="https://github-readme-stats.vercel.app/api?username=YosefHayim&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" height="150" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/YosefHayim">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YosefHayim&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="150" alt="Top Languages" />
-  </a>
-</div>
+- Freelance AI-native developer, now
+- [Predicto](https://predicto.ai/): software engineer, 11 months
+- [Wotch](https://www.wotch.health/): internship at a clinical-workflow startup
+- Atidim, Ministry of Defense full-stack program, 2024 to 2025, graduated with excellence
+- Combat soldier, Nahal Brigade, 2018 to 2021
