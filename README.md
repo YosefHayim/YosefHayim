@@ -18,8 +18,6 @@ Whether you have a project in mind, want to build something open source together
 - [launch-store](https://github.com/YosefHayim/launch-store): Self-hosted EAS alternative that builds, signs and ships Expo apps to the App Store and Google Play.
 - [ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge): macOS CLI that drives ChatGPT, Gemini and Claude web chats in Chrome, with repo tools over MCP.
 - [expo-mediapipe-pose](https://github.com/YosefHayim/expo-mediapipe-pose): Expo module for on-device pose detection in camera, photo and video.
-- [fresh-squeezy](https://github.com/YosefHayim/fresh-squeezy): CLI and library that checks a Lemon Squeezy billing setup in CI.
-- [planpage](https://github.com/YosefHayim/planpage): CLI that turns AI agent plans into local HTML pages you can comment on.
 
 ## Background
 
