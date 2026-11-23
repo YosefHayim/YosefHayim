@@ -17,7 +17,7 @@ Whether you have a project in mind, want to build something open source together
 - [ebay-mcp](https://github.com/YosefHayim/ebay-mcp): MCP server that connects AI assistants to the eBay seller APIs.
 - [launch-store](https://github.com/YosefHayim/launch-store): Self-hosted EAS alternative that builds, signs and ships Expo apps to the App Store and Google Play.
 - [ai-browser-bridge](https://github.com/YosefHayim/ai-browser-bridge): macOS CLI that drives ChatGPT, Gemini and Claude web chats in Chrome, with repo tools over MCP.
-- [expo-mediapipe-pose](https://github.com/YosefHayim/expo-mediapipe-pose): Expo module for on-device pose detection in camera, photo and video.
+- [mediapipe-pose](https://github.com/YosefHayim/mediapipe-pose): Community module for on-device pose landmarks in Expo and React Native.
 
 ## Background
 
